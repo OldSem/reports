@@ -1,0 +1,126 @@
+﻿{% load staticfiles %}
+
+<head>
+	<meta charset="UTF-8">
+	<title>home page</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+    {% block content %}
+	<meta charset="utf-8">
+        <h1>Ежедневный отчет ДТЕ</h1>
+        <form method="POST" class="post-form" autocomplete="off">{% csrf_token %}
+            <div>
+                {{ form.created_date.label_tag }}
+                {{ form.created_date }}
+            </div>
+            <div>
+                {{ form.dept.label_tag }}
+                {{ form.dept }}
+            </div>
+            <div>
+                {{ form.work.label_tag }}
+                {{ form.work }}
+            </div>
+            <div>
+                {{ form.adress.label_tag }}
+                {{ form.adress }}
+                <a class="btn btn-default" href="{% url 'bts_new' %}"><span class="glyphicon glyphicon-plus"></span></a>
+            </div>
+            <div>
+                {{ form.rezult.label_tag }}
+                {{ form.rezult }}
+            </div>
+            <div>
+                {{ form.executor.label_tag }}
+                {{ form.executor }}
+            </div>
+            <div>
+                {{ form.car.label_tag }}
+                {{ form.car }}
+            </div>
+            <div>
+                {{ form.elapsed_time.label_tag }}
+                {{ form.elapsed_time }}
+            </div>
+            <div>
+                {{ form.note.label_tag }}
+                {{ form.note }}
+            </div>
+            <button type="submit" class="save btn btn-default">Добавить</button>
+        </form>
+
+    {% endblock %}
+
+    <div id = "works" class ="ac_results" style="position: absolute; top: 147px; left: 93px; display: none; background-color: white;">   
+        <ul>
+            
+        </ul>
+
+	
+
+    <script>
+ 
+        function debounce(fn, duration) {
+            var timer;
+            return function(){
+                clearTimeout(timer);
+                timer = setTimeout(fn, duration);
+            }
+        }
+
+        var work_timeout;
+        function showCount(e,wk) {
+
+            
+            if (e.value.length >= 3) {
+                
+                work_timeout && clearTimeout(work_timeout);
+
+                work_timeout = setTimeout(function () {
+
+                  var work_list = new XMLHttpRequest();
+                  work_list.open ('GET','work_list?wk='+e.value);
+
+                  work_list.addEventListener('load',  function() {                 
+
+                    wk.style.display = "inline";
+                    wk.children[0].innerHTML = "";
+                    var myArr = JSON.parse(this.responseText);
+                    var out = "";
+                    var i;
+                    for(i = 0; i < myArr.length; i++){
+                         var newSp = document.createElement('li');
+                         newSp.innerHTML = myArr[i].work;
+                         wk.children[0].appendChild(newSp);
+
+                     }
+                  });
+
+                  work_list.send();
+                },500);
+           }    
+         }
+
+         function SelWork(e,l) {
+           
+            if (e.target.tagName === 'LI'){
+                l.value = e.target.innerHTML;  // Check if the element is a LI
+                e.target.parentElement.parentElement.style.display = "none";
+
+            }
+        }
+
+
+         
+
+         id_work.onkeyup = function(){showCount(this,works);}
+ 
+
+         works.onclick = function() {SelWork(event,id_work) ;}
+ 
+            
+
+
+    </script>

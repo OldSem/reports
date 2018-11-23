@@ -1,0 +1,30 @@
+#work_list{
+	position: absolute;
+	z-index: 1;
+	border: 1px;
+	top: 130px;
+	left: 50px;
+	opacity: 1;
+}
+#id_work{
+	autocomplete:off;
+}
+.post-form{
+	autocomplete:off;
+}
+.ac_results {
+	opacity: 1;
+}
+ul {
+	padding-left: 0;
+	margin-top: 0;
+}
+
+li {
+	list-style-type: none;
+	border: 1px solid #ccc;
+}
+
+ul li:hover {
+	background-color:silver;
+}

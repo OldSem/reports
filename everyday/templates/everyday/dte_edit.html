@@ -1,0 +1,49 @@
+﻿{% load staticfiles %}
+
+<head>
+	<meta charset="UTF-8">
+	<title>home page</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+    {% block content %}
+	<meta charset="utf-8">
+        <h1>Ежедневный отчет ДТЕ</h1>
+        <form method="POST" class="post-form" autocomplete="off">{% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="save btn btn-default">Сохранить</button>
+        </form>
+
+    {% endblock %}
+
+	<div id="work_list" >
+		<span id="result1"></span>
+	</div>
+	<span id="result"></span>
+	
+	<script type="text/javascript">
+		function showCount() {
+    		result.innerHTML = id_nn.value;
+ 		 }
+    	 id_nn.onkeyup = showCount;	
+	</script>
+	<script>
+
+		function showCount() {
+    		result1.innerHTML = id_work.value;
+    		var work_list = new XMLHttpRequest();
+    		work_list.open ('GET','work_list?st='+id_work.value);
+    		work_list.onreadystatechange = function() {
+    			var myArr = JSON.parse(this.responseText);
+    			var out = "";
+    			var i;
+    			for(i = 0; i < myArr.length; i++){
+    			result1.innerHTML = myArr[i].work;
+    			}
+    		}
+    		work_list.send();
+
+    		
+ 		 }
+    	 id_work.onkeyup = showCount;	
+
+	</script>

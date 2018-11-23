@@ -1,0 +1,11 @@
+<div>
+    <h1><a href="/">Ads</a></h1>
+</div>
+
+{% for post in posts %}
+    <div>
+        <p>published: {{ ads.created_date }}</p>
+        <h1><a href="">{{ ads.phone }}</a></h1>
+        <p>{{ ads.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
