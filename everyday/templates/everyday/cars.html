@@ -1,7 +1,7 @@
 <head>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
+{% block content %}
   <style>
     th {
       cursor: pointer;
@@ -11,39 +11,41 @@
       background: yellow;
     }
   </style>
-  <title>Список Контрагентов</title>
+  <title>Список Автомобилей</title>
 
 </head>
 
 
 
-{% block content %}
+
   <meta charset="utf-8">
-  <h1>Список КОНТРАгентов</h1>
+  <h1>Список Автомобилей</h1>
   <table border=2>	
     <thead>
      <tr>
-      <th data-type="number">ЕДРПОУ</th>
-      <th data-type="string">Название</th>
+      <th data-type="string">Гос Номер</th>
+      <th data-type="string">Модель</th>
+      <th data-type="string">Водитель</th>
       <th>Редактировать</th>
      </tr>
     </thead> 
     
-       {% for contra in contras %}
+       {% for car in cars %}
          <tr>
-            <td>{{ contra.edrpou }}</td>
-            <td>{{ contra.name }}</td>
-            <td><a class="btn btn-default" href="{% url 'contra_edit' nn=contra.edrpou %}"><span class="glyphicon glyphicon-pencil"></span></a></td>
+            <td>{{ car.dn }}</td>
+            <td>{{ car.model }}</td>
+            <td>{{ car.driver }}</td>
+            <td><a class="btn btn-default" href="{% url 'car_edit' nn=car.pk %}"><span class="glyphicon glyphicon-pencil"></span></a></td>
 	       </tr>
        {% endfor %}
 
   </table>
   <form>
-    <input type="button" value="Добавить" onClick='location.href="../contra/new/"'>
+    <input type="button" value="Добавить" onClick='location.href="../car/new/"'>
   </form>
   <p><a href="{% url 'dtes' %}">Список Выполненных работ</a></p>
   <p><a href="{% url 'btss' %}">Список Базовых Станций</a></p>
-  <p><a href="{% url 'cars' %}">Список Автомобилей</a></p>
+  <p><a href="{% url 'contras' %}">Список Контрагентов</a></p>
 
 {% endblock %}
   <script>

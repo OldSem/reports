@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django import forms
 from django.utils import timezone
-from .models import personel,Contra,BTS,DTE
+from .models import personel,Contra,BTS,DTE,Car
 
 
 
@@ -11,6 +11,15 @@ class ContraForm(forms.ModelForm):
         fields = ('edrpou','name','address')
         labels = {'edrpou':u'ЕДПРОУ','name':u'Название','address':u'Адресс'}
         values = {"save": u'Добавить'}
+
+class CarForm(forms.ModelForm):
+    class Meta:
+        model = Car
+        fields = ('dn','model','driver')
+        labels = {'edrpou':u'Государственный номер','name':u'Модель','address':u'Водитель'}
+        values = {"save": u'Добавить'}
+
+
 
 class BTSForm(forms.ModelForm):
     class Meta:
@@ -37,8 +46,8 @@ class DTEForm(forms.ModelForm):
 
         model = DTE
 
-        fields = ('created_date','dept','work','adress','rezult','executor','elapsed_time','note','car')
-        labels = {'created_date':u'Дата','dept':u'Отдел','work':u'Вид работ','adress':u'Адресс объекта','rezult':u'Результат','executor':u'Исполнитель','elapsed_time':u'Затраченное время','note':u'Примечание','car':u'Автомобиль',}
+        fields = ('created_date','dept','work','adress','executor','rezult','elapsed_time','note','car')
+        labels = {'created_date':u'Дата','dept':u'Отдел','work':u'Вид работ','adress':u'Адресс объекта','executor':u'Исполнитель','rezult':u'Результат','elapsed_time':u'Затраченное время','note':u'Примечание','car':u'Автомобиль',}
         values = {"save":u'Добавить','rezult':u'выполнено'}
         widgets = {
             'executor': forms.CheckboxSelectMultiple(),

@@ -1,0 +1,3666 @@
+[
+
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$WsHnccGqxLgw$WkH1P2Q6qUqIqPg3uvAsCfb0FTTmW/fuS256kWfhc3c=",
+    "last_login": "2017-04-13T14:22:34.691Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2017-03-02T12:23:44.356Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "676mvjyr9kunr5iqwfrmuppxbjwi4oqh",
+  "fields": {
+    "session_data": "N2JhZjQwOTQ0MjI1ODNmZmFmOTFmNWQzOWEyMGE5MzAwMTc0NDlhMTp7Il9hdXRoX3VzZXJfaGFzaCI6ImEzY2QxZWQ1NGIzMTRjMzk0ZmFjMDJkNWQzYjdjZDI0YmJmMDViZTMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2017-03-20T09:20:22.732Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ji4q5sjklz7ubi0zsrsowr8i82b64nw6",
+  "fields": {
+    "session_data": "N2JhZjQwOTQ0MjI1ODNmZmFmOTFmNWQzOWEyMGE5MzAwMTc0NDlhMTp7Il9hdXRoX3VzZXJfaGFzaCI6ImEzY2QxZWQ1NGIzMTRjMzk0ZmFjMDJkNWQzYjdjZDI0YmJmMDViZTMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2017-04-27T14:22:34.931Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ps9ka1b0iw5lgn4lnnsnz1bf0bvrabn4",
+  "fields": {
+    "session_data": "N2JhZjQwOTQ0MjI1ODNmZmFmOTFmNWQzOWEyMGE5MzAwMTc0NDlhMTp7Il9hdXRoX3VzZXJfaGFzaCI6ImEzY2QxZWQ1NGIzMTRjMzk0ZmFjMDJkNWQzYjdjZDI0YmJmMDViZTMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2017-03-16T12:23:57.230Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zxl2c6rm7prn1q7ky6fabh8emd1cvspl",
+  "fields": {
+    "session_data": "N2JhZjQwOTQ0MjI1ODNmZmFmOTFmNWQzOWEyMGE5MzAwMTc0NDlhMTp7Il9hdXRoX3VzZXJfaGFzaCI6ImEzY2QxZWQ1NGIzMTRjMzk0ZmFjMDJkNWQzYjdjZDI0YmJmMDViZTMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2017-04-04T11:12:52.106Z"
+  }
+},
+{
+  "model": "everyday.contra",
+  "pk": 1,
+  "fields": {
+    "edrpou": 1,
+    "name": "\u0420\u043e\u0433\u0430 \u0438 \u041a\u043e\u043f\u044b\u0442\u0430",
+    "address": "\u0433.\u041a\u0438\u0435\u0432"
+  }
+},
+{
+  "model": "everyday.contra",
+  "pk": 2,
+  "fields": {
+    "edrpou": 30109015,
+    "name": "\u0418\u041d\u0422\u0415\u0420\u0422\u0415\u041b\u0415\u041a\u041e\u041c",
+    "address": "\u0433.\u041a\u0438\u0435\u0432, \u0443\u043b. \u0421\u0435\u043c\u044c\u0438 \u0425\u043e\u0445\u043b\u043e\u0432\u044b\u0445,15"
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 135,
+  "fields": {
+    "ECP": "65",
+    "UCN": "11017",
+    "adress": "\u0443\u043b. \u0413\u043b\u0443\u0448\u043a\u043e\u0432\u0430, 38\u0431 (\u041a\u0438\u0435\u0432\u042d\u043d\u0435\u0440\u0433\u043e)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 136,
+  "fields": {
+    "ECP": "67",
+    "UCN": "11012",
+    "adress": "\u0443\u043b. \u041e\u043b\u0435\u0433\u043e\u0432\u0441\u043a\u0430\u044f, 34\u0431                    \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 137,
+  "fields": {
+    "ECP": "68",
+    "UCN": "11002",
+    "adress": "\u0443\u043b. \u0421\u0430\u043f\u0435\u0440\u043d\u043e-\u0421\u043b\u043e\u0431\u043e\u0434\u0441\u043a\u0430\u044f, 20        \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 138,
+  "fields": {
+    "ECP": "71",
+    "UCN": "11015",
+    "adress": "\u0443\u043b. \u041a\u0440\u0430\u0441\u043d\u043e\u0433\u0432\u0430\u0440\u0434\u0435\u0439\u0441\u043a\u0430\u044f, 20   ( \u0432\u0443\u043b\u0438\u0446\u044f \u0413\u043d\u0430\u0442\u0430 \u0425\u043e\u0442\u043a\u0435\u0432\u0438\u0447\u0430 )            \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 139,
+  "fields": {
+    "ECP": "79",
+    "UCN": "11008",
+    "adress": "\u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f, 3                           \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 140,
+  "fields": {
+    "ECP": "86",
+    "UCN": "11014",
+    "adress": "\u0428\u0435\u0432\u0447\u0435\u043d\u043a\u0430, 38/40             \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 141,
+  "fields": {
+    "ECP": "94",
+    "UCN": "11016",
+    "adress": "\u041a\u0440\u0430\u0439\u043d\u044f\u044f,1 (\u041a\u0438\u0435\u0432\u042d\u043d\u0435\u0440\u0433\u043e)         \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 142,
+  "fields": {
+    "ECP": "100",
+    "UCN": "11009",
+    "adress": "\u0420\u0430\u0431\u043e\u0447\u0430\u044f, 1 (\u041a\u0438\u0435\u0432\u042d\u043d\u0435\u0440\u0433\u043e) \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 143,
+  "fields": {
+    "ECP": "101",
+    "UCN": "11007",
+    "adress": "\u0416\u043c\u0435\u0440\u0438\u043d\u0441\u043a\u0430\u044f, 14 (\u041a\u0438\u0435\u0432\u042d\u043d\u0435\u0440\u0433\u043e)   \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 144,
+  "fields": {
+    "ECP": "107",
+    "UCN": "11024",
+    "adress": "\u0414\u0435\u043f\u0443\u0442\u0430\u0442\u0441\u043a\u0430\u044f, 2 (\u041a\u0438\u0435\u0432\u042d\u043d\u0435\u0440\u0433\u043e)    \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 145,
+  "fields": {
+    "ECP": "118",
+    "UCN": "11021",
+    "adress": "\u043f\u0440-\u0442 \u041d\u0430\u0443\u043a\u0438, 47 (\u041a\u0438\u0435\u0432\u042d\u043d\u0435\u0440\u0433\u043e)              \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 146,
+  "fields": {
+    "ECP": "124",
+    "UCN": "11023",
+    "adress": "\u043f\u0440-\u0442 \u041c\u0430\u0440\u0448\u0430\u043b\u0430 \u0420\u043e\u043a\u043e\u0441\u0441\u043e\u0432\u0441\u043a\u043e\u0433\u043e, 8\u0431 (\u041a\u0438\u0435\u0432\u042d\u043d\u0435\u0440\u0433\u043e)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 147,
+  "fields": {
+    "ECP": "131",
+    "UCN": "11020",
+    "adress": "\u0417\u0434\u043e\u043b\u0431\u0443\u043d\u043e\u0432\u0441\u043a\u0430\u044f, 2 (\u041a\u0438\u0435\u0432\u042d\u043d\u0435\u0440\u0433\u043e)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 148,
+  "fields": {
+    "ECP": "183",
+    "UCN": "11034",
+    "adress": "\u0420\u0435\u0437\u0435\u0440\u0432\u043d\u0430\u044f, 8 (\u041a\u0438\u0435\u0432\u042d\u043d\u0435\u0440\u0433\u043e) \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 149,
+  "fields": {
+    "ECP": "204",
+    "UCN": "11028",
+    "adress": "\u0421\u0432\u0435\u0442\u043b\u0438\u0446\u043a\u043e\u0433\u043e, 35\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 150,
+  "fields": {
+    "ECP": "205",
+    "UCN": "11029",
+    "adress": "\u043f\u0440-\u0442 \u041e\u0441\u0432\u043e\u0431\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439, 1 (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 151,
+  "fields": {
+    "ECP": "210",
+    "UCN": "11019",
+    "adress": "\u0411\u043e\u0440\u0438\u0441\u043f\u043e\u043b\u044c\u0441\u043a\u0430\u044f, 15\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 152,
+  "fields": {
+    "ECP": "215",
+    "UCN": "11031",
+    "adress": "\u0411\u043e\u0433\u043e\u043c\u043e\u043b\u044c\u0446\u0430, 4\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 153,
+  "fields": {
+    "ECP": "219",
+    "UCN": "11033",
+    "adress": "\u0413\u0440\u0438\u0433\u043e\u0440\u0435\u043d\u043a\u0430, 40  (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 154,
+  "fields": {
+    "ECP": "226",
+    "UCN": "11036",
+    "adress": "\u041c\u0430\u0439\u0434\u0430\u043d \u041d\u0435\u0437\u0430\u043b\u0435\u0436\u043d\u043e\u0441\u0442\u0438, 2\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 155,
+  "fields": {
+    "ECP": "235",
+    "UCN": "11032",
+    "adress": "\u0443\u043b. \u0421\u043e\u043b\u043e\u043c\u0435\u043d\u0441\u043a\u0430\u044f, 3\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 156,
+  "fields": {
+    "ECP": "237",
+    "UCN": "11037",
+    "adress": "\u0411\u0435\u043b\u0435\u0446\u043a\u043e\u0433\u043e, 34\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 157,
+  "fields": {
+    "ECP": "271",
+    "UCN": "11035",
+    "adress": "\u041c\u0430\u0437\u0435\u043f\u0438,34 (\u0443\u043b. \u041b\u0430\u0432\u0440\u0441\u044c\u043a\u0430,16)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 158,
+  "fields": {
+    "ECP": "273",
+    "UCN": "11038",
+    "adress": "\u0422\u0440\u0443\u0442\u0435\u043d\u043a\u0430, 2    (\u0432\u0443\u043b. \u041c\u0430\u043a\u0441\u0438\u043c\u043e\u0432\u0438\u0447\u0430 \u041c\u0438\u0445\u0430\u0439\u043b\u0430 )\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 159,
+  "fields": {
+    "ECP": "304",
+    "UCN": "11039",
+    "adress": "\u0443\u043b. \u0421\u0443\u0432\u043e\u0440\u043e\u0432\u0430, 4/6  ( \u0432\u0443\u043b\u0438\u0446\u044f \u041c\u0438\u0445\u0430\u0439\u043b\u0430 \u041e\u043c\u0435\u043b\u044f\u043d\u043e\u0432\u0438\u0447\u0430-\u041f\u0430\u0432\u043b\u0435\u043d\u043a\u0430 )\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 160,
+  "fields": {
+    "ECP": "341",
+    "UCN": "11001",
+    "adress": "\u0414\u043e\u0440\u043e\u0433\u043e\u0436\u0438\u0446\u043a\u0430\u044f, 10\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 161,
+  "fields": {
+    "ECP": "343",
+    "UCN": "11042",
+    "adress": "\u0427\u0430\u043b\u043e\u0433\u043e, 3\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 162,
+  "fields": {
+    "ECP": "381",
+    "UCN": "11050",
+    "adress": "\u0421\u0438\u043c\u0438\u0440\u0435\u043d\u043a\u0430, 10                          \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 163,
+  "fields": {
+    "ECP": "397",
+    "UCN": "11043",
+    "adress": "\u0416\u0438\u043b\u044f\u043d\u0441\u043a\u0430\u044f, 85 (\u041a\u0438\u0435\u0432\u042d\u043d\u0435\u0440\u0433\u043e) \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 164,
+  "fields": {
+    "ECP": "423",
+    "UCN": "11041",
+    "adress": "\u0443\u043b. \u0413\u0440\u0435\u0447\u043a\u0430 \u041c\u0430\u0440\u0448\u0430\u043b\u0430, 13                     \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 165,
+  "fields": {
+    "ECP": "425",
+    "UCN": "11046",
+    "adress": "\u0443\u043b. \u041c\u0430\u044f\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e, 75/2 (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 166,
+  "fields": {
+    "ECP": "428",
+    "UCN": "11045",
+    "adress": "\u043f\u0440. \u041a\u0440\u0430\u0441\u043d\u043e\u0437\u0432\u0435\u0437\u0434\u043d\u044b\u0439, 119  (\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0412\u0430\u043b\u0435\u0440\u0456\u044f \u041b\u043e\u0431\u0430\u043d\u043e\u0432\u0441\u044c\u043a\u043e\u0433\u043e )\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 167,
+  "fields": {
+    "ECP": "433",
+    "UCN": "11013",
+    "adress": "\u0443\u043b. \u0418\u0432\u0430\u043d\u0430 \u041a\u0443\u0434\u0440\u0438, 11-\u0410  (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 168,
+  "fields": {
+    "ECP": "450",
+    "UCN": "11011",
+    "adress": "\u043f\u0440-\u0442 \u0412\u043e\u0441\u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u044f, 15 (\u043f\u0440\u043e\u0441\u043f. \u0421\u043e\u0431\u043e\u0440\u043d\u043e\u0441\u0442\u0456)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 169,
+  "fields": {
+    "ECP": "483",
+    "UCN": "11048",
+    "adress": "\u0443\u043b. \u0413\u0435\u0442\u044c\u043c\u0430\u043d\u0430, 27                        \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 170,
+  "fields": {
+    "ECP": "493",
+    "UCN": "11022",
+    "adress": "\u0443\u043b. \u0414\u0435\u043a\u0430\u0431\u0440\u0438\u0441\u0442\u043e\u0432, 12/37               \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 171,
+  "fields": {
+    "ECP": "496",
+    "UCN": "11044",
+    "adress": "\u0443\u043b. \u0417\u0430\u0431\u043e\u043b\u043e\u0442\u043d\u043e\u0433\u043e, 3 (outdoor \u0415\u0416\u0423)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 172,
+  "fields": {
+    "ECP": "499",
+    "UCN": "11052",
+    "adress": "\u0443\u043b. \u0423\u0440\u043b\u043e\u0432\u0441\u043a\u0430\u044f,1/8                            \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 173,
+  "fields": {
+    "ECP": "544",
+    "UCN": "11026",
+    "adress": "\u0443\u043b. \u0412\u0430\u0441\u0438\u043b\u044c\u043a\u043e\u0432\u0441\u043a\u0430\u044f, 1 (outdoor Lucent)             \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 174,
+  "fields": {
+    "ECP": "547",
+    "UCN": "11027",
+    "adress": "\u0443\u043b. \u041f\u0443\u0445\u043e\u0432\u0441\u043a\u0430\u044f, 1 (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 175,
+  "fields": {
+    "ECP": "726",
+    "UCN": "11053",
+    "adress": "\u0443\u043b. \u0413\u0435\u0440\u043e\u0435\u0432 \u0421\u0442\u0430\u043b\u0438\u043d\u0433\u0440\u0430\u0434\u0430,12 (outdoor \u0415\u0416\u0423)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 176,
+  "fields": {
+    "ECP": "727",
+    "UCN": "11057",
+    "adress": "\u0443\u043b. \u0420\u0435\u0432\u0443\u0446\u043a\u043e\u0433\u043e, 1  (\u041a\u0438\u0435\u0432\u042d\u043d\u0435\u0440\u0433\u043e) \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 177,
+  "fields": {
+    "ECP": "743",
+    "UCN": "11054",
+    "adress": "\u0443\u043b. \u0414\u0435\u0433\u0442\u044f\u0440\u0435\u0432\u0441\u043a\u0430\u044f, 51 (outdoor \u0415\u0416\u0423)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 178,
+  "fields": {
+    "ECP": "747",
+    "UCN": "11055",
+    "adress": "\u0431\u0443\u043b\u044c\u0432. \u0414\u0440\u0443\u0436\u0431\u044b \u041d\u0430\u0440\u043e\u0434\u043e\u0432, 28  (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 179,
+  "fields": {
+    "ECP": "883",
+    "UCN": "11056",
+    "adress": "\u0443\u043b. \u0428\u043e\u0442\u0430 \u0420\u0443\u0441\u0442\u0430\u0432\u0435\u043b\u0438, 39-41 (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 180,
+  "fields": {
+    "ECP": "1094",
+    "UCN": "11058",
+    "adress": "\u0443\u043b. 66-\u044f \u0421\u0430\u0434\u043e\u0432\u0430\u044f (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 181,
+  "fields": {
+    "ECP": "1095",
+    "UCN": "11059",
+    "adress": "\u0443\u043b. \u0424\u0440\u0443\u043d\u0437\u0435, 160 (ITC)  (\u0432\u0443\u043b\u0438\u0446\u044f \u041a\u0438\u0440\u0438\u043b\u0456\u0432\u0441\u044c\u043a\u0430 )\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 182,
+  "fields": {
+    "ECP": "1097",
+    "UCN": "11062",
+    "adress": "\u0443\u043b. \u0411\u0440\u0430\u0442\u0438\u0441\u043b\u0430\u0432\u0441\u044c\u043a\u0430, 3 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 183,
+  "fields": {
+    "ECP": "1098",
+    "UCN": "11072",
+    "adress": "\u0443\u043b. \u041c\u0430\u0440\u0448\u0430\u043b\u0430 \u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e, 2\u043b (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 184,
+  "fields": {
+    "ECP": "1100",
+    "UCN": "11077",
+    "adress": "\u0443\u043b. \u0425\u0430\u0440\u044c\u043a\u043e\u0432\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435, 56 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 185,
+  "fields": {
+    "ECP": "1104",
+    "UCN": "11063",
+    "adress": "\u0443\u043b. \u0412\u0435\u0440\u0431\u0438\u0446\u044c\u043a\u043e\u0433\u043e, 10 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 186,
+  "fields": {
+    "ECP": "1105",
+    "UCN": "11064",
+    "adress": "\u0443\u043b. \u0412\u0438\u0448\u043d\u044f\u043a\u043e\u0432\u0441\u043a\u0430\u044f, 3 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 187,
+  "fields": {
+    "ECP": "1106",
+    "UCN": "11075",
+    "adress": "\u0443\u043b. \u0421\u0430\u0433\u0430\u0439\u0434\u0430\u043a\u0430, 114-\u0410 (ITC) ( \u0404\u0432\u0433\u0435\u043d\u0430 \u041c\u0430\u043b\u0430\u043d\u044e\u043a\u0430 )\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 188,
+  "fields": {
+    "ECP": "1107",
+    "UCN": "11065",
+    "adress": "\u0443\u043b. \u0413\u0435\u0440\u043e\u0457\u0432 \u0421\u0442\u0430\u043bi\u043d\u0433\u0440\u0430\u0434y, 43 \u0431 (ITC) (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 189,
+  "fields": {
+    "ECP": "1109",
+    "UCN": "11079",
+    "adress": "\u0443\u043b. \u0410\u0440\u0442\u0435\u043c\u0430, 1-5 (ITC)   (\u0432\u0443\u043b\u0438\u0446\u044f \u0421\u0456\u0447\u043e\u0432\u0438\u0445 \u0421\u0442\u0440\u0456\u043b\u044c\u0446\u0456\u0432)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 190,
+  "fields": {
+    "ECP": "1113",
+    "UCN": "11080",
+    "adress": "\u041f\u0443\u0449\u0430-\u0412\u043e\u0434\u0438\u0446\u044f, 14 \u043bi\u043di\u044f, \u0441\u0430\u043d\u0430\u0442. \u043a\u043e\u043c\u043f\u043b. \u041f\u0443\u0449\u0430-\u041e\u0437\u0435\u0440\u043d\u0430 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 191,
+  "fields": {
+    "ECP": "1114",
+    "UCN": "11070",
+    "adress": "\u0443\u043b.\u041a\u0443\u0440\u0435\u043d\u0435\u0432\u0441\u043a\u0430\u044f, 18  (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 192,
+  "fields": {
+    "ECP": "1117",
+    "UCN": "11066",
+    "adress": "\u0443\u043b. \u0413\u043c\u044b\u0440\u0438, 3  (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 193,
+  "fields": {
+    "ECP": "1118",
+    "UCN": "11071",
+    "adress": "\u0443\u043b. \u041c\u0430\u0440\u0438\u043d\u044b \u0420\u0430\u0441\u043a\u043e\u0432\u043e\u0439,19  (ITC)   (\u0432\u0443\u043b\u0438\u0446\u044f \u0404\u0432\u0433\u0435\u043d\u0430 \u0421\u0432\u0435\u0440\u0441\u0442\u044e\u043a\u0430)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 194,
+  "fields": {
+    "ECP": "1119",
+    "UCN": "11078",
+    "adress": "\u0443\u043b. \u0422\u0430\u0448\u043a\u0435\u043d\u0442\u0441\u043a\u0430\u044f, 60  (ITC) (\u0434\u0435\u043c\u043e\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 195,
+  "fields": {
+    "ECP": "1120",
+    "UCN": "11076",
+    "adress": "\u0443\u043b. \u0422\u0435\u043e\u0434\u043e\u0440\u0430 \u0414\u0440\u0430\u0439\u0437\u0435\u0440\u0430, 21  (\u0434\u0435\u043c\u043e\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 196,
+  "fields": {
+    "ECP": "1122",
+    "UCN": "11068",
+    "adress": "\u0443\u043b. \u0417\u0430\u043a\u0440\u0435\u0432\u0441\u043a\u043e\u0433\u043e, 81/1  (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 197,
+  "fields": {
+    "ECP": "1126",
+    "UCN": "11060",
+    "adress": "\u0443\u043b. \u0410\u043c\u043e\u0441\u043e\u0432\u0430, 6  (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 198,
+  "fields": {
+    "ECP": "1128",
+    "UCN": "11067",
+    "adress": "\u0443\u043b. \u042d\u043d\u0442\u0443\u0437\u0438\u0430\u0441\u0442\u043e\u0432, 1 (ITC) (\u0434\u0435\u043c\u043e\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 199,
+  "fields": {
+    "ECP": "1131",
+    "UCN": "11074",
+    "adress": "\u0443\u043b. \u041f\u0430\u0442\u0440\u0438\u0441\u0430 \u041b\u0443\u043c\u0443\u043c\u0431\u044b, 4/6, \u043a\u043e\u0440\u043f. \u0411 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 200,
+  "fields": {
+    "ECP": "1132",
+    "UCN": "11061",
+    "adress": "\u0443\u043b. \u0411\u0435\u0440\u0434\u0438\u0447\u0435\u0432\u0441\u043a\u0430\u044f, 1 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 201,
+  "fields": {
+    "ECP": "1134",
+    "UCN": "11081",
+    "adress": "\u043f\u0440-\u0442 \u0412\u043e\u0437\u0434\u0443\u0445\u043e\u0444\u043b\u043e\u0442\u0441\u043a\u0438\u0439, 10 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 202,
+  "fields": {
+    "ECP": "1247",
+    "UCN": "11083",
+    "adress": "\u0443\u043b. \u041d\u0430\u0440\u043e\u0434\u043d\u043e\u0433\u043e \u041e\u043f\u043e\u043b\u0447\u0435\u043d\u043d\u0438\u044f, 5\u0430 (\u0406\u0422C)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 203,
+  "fields": {
+    "ECP": "1248",
+    "UCN": "11084",
+    "adress": "\u0443\u043b. \u0411\u043e\u0433\u0434\u0430\u043d\u0430 \u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u043a\u043e\u0433\u043e, 8/16 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 204,
+  "fields": {
+    "ECP": "1250",
+    "UCN": "11086",
+    "adress": "\u0443\u043b. \u041d\u0435\u043c\u0438\u0440\u043e\u0432\u0438\u0447\u0430-\u0414\u0430\u043d\u0447\u0435\u043d\u043a\u0430, 2 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 205,
+  "fields": {
+    "ECP": "1251",
+    "UCN": "11087",
+    "adress": "\u0443\u043b. \u042d\u0441\u043f\u043b\u0430\u043d\u0430\u0434\u043d\u0430\u044f, 20 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 206,
+  "fields": {
+    "ECP": "1252",
+    "UCN": "11088",
+    "adress": "\u0443\u043b. \u041b\u0438\u043f\u0441\u043a\u0430\u044f, 5 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 207,
+  "fields": {
+    "ECP": "1253",
+    "UCN": "11089",
+    "adress": "\u043f\u0440-\u0442 \u041e\u0442\u0440\u0430\u0434\u043d\u044b\u0439, 103 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 208,
+  "fields": {
+    "ECP": "1255",
+    "UCN": "11090",
+    "adress": "\u0443\u043b. \u041d\u0430\u0433\u043e\u0440\u043d\u0430\u044f, 25-27 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 209,
+  "fields": {
+    "ECP": "1256",
+    "UCN": "11094",
+    "adress": "\u0443\u043b. \u0413\u043e\u0440\u044c\u043a\u043e\u0433\u043e, 180 (\u0410\u043d\u0442\u043e\u043d\u043e\u0432\u0438\u0447\u0430)(ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 210,
+  "fields": {
+    "ECP": "1257",
+    "UCN": "11091",
+    "adress": "\u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u043e\u043a\u0440\u0443\u0436\u043d\u0430\u044f, 4 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 211,
+  "fields": {
+    "ECP": "1258",
+    "UCN": "11092",
+    "adress": "\u0443\u043b. \u0424\u0440\u0443\u043d\u0437\u0435, 105 (ITC)  (\u0432\u0443\u043b\u0438\u0446\u044f \u041a\u0438\u0440\u0438\u043b\u0456\u0432\u0441\u044c\u043a\u0430 )\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 212,
+  "fields": {
+    "ECP": "1264",
+    "UCN": "11095",
+    "adress": "\u0443\u043b. \u0413\u043e\u0440\u044c\u043a\u043e\u0433\u043e, 51 (\u0410\u043d\u0442\u043e\u043d\u043e\u0432\u0438\u0447\u0430) (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 213,
+  "fields": {
+    "ECP": "1281",
+    "UCN": "11097",
+    "adress": "\u0443\u043b. \u041a\u0440\u0430\u0441\u043d\u043e\u0430\u0440\u043c\u0435\u0439\u0441\u043a\u0430\u044f/\u0411\u0430\u0441\u0441\u0435\u0439\u043d\u0430\u044f 1-3/2   (\u0432\u0443\u043b\u0438\u0446\u044f \u0412\u0435\u043b\u0438\u043a\u0430 \u0412\u0430\u0441\u0438\u043b\u044c\u043a\u0456\u0432\u0441\u044c\u043a\u0430 )\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 214,
+  "fields": {
+    "ECP": "1321",
+    "UCN": "11098",
+    "adress": "\u0443\u043b. \u0413\u0440\u0430\u0434\u0438\u043d\u0441\u043a\u0430\u044f,3\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 215,
+  "fields": {
+    "ECP": "1386",
+    "UCN": "11117",
+    "adress": "\u0443\u043b. \u041f\u043e\u043b\u044f\u0440\u043d\u0430\u044f, 10 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 216,
+  "fields": {
+    "ECP": "1387",
+    "UCN": "11100",
+    "adress": "\u0443\u043b. \u041f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u0430\u044f,12 (\u0411\u043e\u0440\u0442\u043d\u0438\u0447\u0438) (ITC) \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 217,
+  "fields": {
+    "ECP": "1408",
+    "UCN": "11116",
+    "adress": "\u0443\u043b. \u0421\u0435\u0432\u0435\u0440\u043e-\u0421\u044b\u0440\u0435\u0446\u043a\u0430\u044f, 3 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 218,
+  "fields": {
+    "ECP": "1411",
+    "UCN": "11122",
+    "adress": "\u043f\u0440. \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439, 16  \u0431 (ITC)  (\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0421\u0442\u0435\u043f\u0430\u043d\u0430 \u0411\u0430\u043d\u0434\u0435\u0440\u0438)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 219,
+  "fields": {
+    "ECP": "1420",
+    "UCN": "11118",
+    "adress": "\u0443\u043b. \u0421\u0442\u0435\u0446\u0435\u043d\u043a\u0430, 1\u0430 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 220,
+  "fields": {
+    "ECP": "1430",
+    "UCN": "11112",
+    "adress": "\u0443\u043b. \u041c\u0435\u0436\u0438\u0433\u043e\u0440\u0441\u043a\u0430\u044f, 83 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 221,
+  "fields": {
+    "ECP": "1431",
+    "UCN": "11113",
+    "adress": "\u0443\u043b. \u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u043e-\u041a\u0440\u0435\u0449\u0430\u0442\u0438\u0446\u043a\u0430\u044f, 10 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 222,
+  "fields": {
+    "ECP": "1442",
+    "UCN": "11134",
+    "adress": "\u0431\u0443\u043b\u044c\u0432. \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u043a\u0430 \u0412\u0435\u0440\u043d\u0430\u0434\u0441\u043a\u043e\u0433\u043e, 36 (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 223,
+  "fields": {
+    "ECP": "1443",
+    "UCN": "11120",
+    "adress": "\u043f\u0440-\u0442 \u041f\u043e\u0431\u0435\u0434\u044b, 49/2 (\u0437-\u0434 \u0411\u043e\u043b\u044c\u0448\u0435\u0432\u0438\u043a)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 224,
+  "fields": {
+    "ECP": "1451",
+    "UCN": "11133",
+    "adress": "\u043f\u0435\u0440. \u0420\u0430\u0434\u0438\u0449\u0435\u0432\u0430, 4\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 225,
+  "fields": {
+    "ECP": "1453",
+    "UCN": "11123",
+    "adress": "\u0443\u043b. \u041f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u0430\u044f,4\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 226,
+  "fields": {
+    "ECP": "1458",
+    "UCN": "11105",
+    "adress": "\u0443\u043b. \u0414\u043e\u043d\u0435\u0446\u043a\u0430\u044f, 30\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 227,
+  "fields": {
+    "ECP": "1493",
+    "UCN": "11115",
+    "adress": "\u0443\u043b. \u041e\u0437\u0435\u0440\u043d\u0430\u044f, 1\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 228,
+  "fields": {
+    "ECP": "1497",
+    "UCN": "11128",
+    "adress": "\u0443\u043b. \u041a\u0443\u0440\u043d\u0430\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e, 20\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 229,
+  "fields": {
+    "ECP": "1508",
+    "UCN": "11114",
+    "adress": "\u0443\u043b. \u041d\u043e\u0432\u043e\u0437\u0430\u0431\u0430\u0440\u0441\u043a\u0430\u044f, 2/6 (\u0410\u0432\u0442\u043e\u0437\u0430\u0432\u043e\u0434\u0441\u043a\u0430\u044f,24)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 230,
+  "fields": {
+    "ECP": "1530",
+    "UCN": "11129",
+    "adress": "\u0443\u043b. \u041c\u0435\u0436\u0438\u0433\u043e\u0440\u0441\u043a\u0430\u044f, 8 (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 231,
+  "fields": {
+    "ECP": "1562",
+    "UCN": "11135",
+    "adress": "\u043f\u0440-\u043a\u0442 \u041b\u0435\u0441\u044f \u041a\u0443\u0440\u0431\u0430\u0441\u0430, 2\u0411   (outdoor Lucent)                \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 232,
+  "fields": {
+    "ECP": "1584",
+    "UCN": "11107",
+    "adress": "\u0443\u043b. \u042d\u043b\u0435\u043a\u0442\u0440\u0438\u043a\u043e\u0432, 26               \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 233,
+  "fields": {
+    "ECP": "1618",
+    "UCN": "11101",
+    "adress": "\u0443\u043b. \u0421\u0442\u0440\u043e\u0439\u0438\u043d\u0434\u0443\u0441\u0442\u0440\u0438\u0438, 5 (\u0443\u043b. \u0414\u0435\u0440\u0435\u0432\u043e\u043e\u0431\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u044e\u0449\u0430\u044f,4)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 234,
+  "fields": {
+    "ECP": "1666",
+    "UCN": "11136",
+    "adress": "\u0443\u043b. \u0424\u0435\u043e\u0434\u043e\u0440\u044b \u041f\u0443\u0448\u0438\u043d\u043e\u0439, 30/32\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 235,
+  "fields": {
+    "ECP": "1676",
+    "UCN": "11132",
+    "adress": "\u043f\u0440. \u041d\u0430\u0443\u043a\u0438, 46\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 236,
+  "fields": {
+    "ECP": "1679",
+    "UCN": "11110",
+    "adress": "\u0443\u043b. \u041a\u0438\u043e\u0442\u043e, 27\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 237,
+  "fields": {
+    "ECP": "1707",
+    "UCN": "11130",
+    "adress": "\u041f\u0435\u0447\u0435\u0440\u0441\u043a\u0438\u0439 \u0441\u043f\u0443\u0441\u043a, 3\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 238,
+  "fields": {
+    "ECP": "1715",
+    "UCN": "11109",
+    "adress": "\u0443\u043b. \u041a\u0430\u043b\u0430\u0447\u0435\u0432\u0441\u043a\u0430\u044f, 13\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 239,
+  "fields": {
+    "ECP": "1755",
+    "UCN": "11096",
+    "adress": "\u0443\u043b. \u0410\u0445\u043c\u0430\u0442\u043e\u0432\u043e\u0439, 15/27\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 240,
+  "fields": {
+    "ECP": "1756",
+    "UCN": "11137",
+    "adress": "\u0443\u043b. \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432\u0430,18\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 241,
+  "fields": {
+    "ECP": "1772",
+    "UCN": "11119",
+    "adress": "\u043f\u0430\u0440\u043a \u0414\u0440\u0443\u0436\u0431\u044b \u043d\u0430\u0440\u043e\u0434\u043e\u0432, 5\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 242,
+  "fields": {
+    "ECP": "1810",
+    "UCN": "11138",
+    "adress": "\u043f\u0440-\u0442 \u042e\u0440\u0438\u044f \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430, 23 (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 243,
+  "fields": {
+    "ECP": "1838",
+    "UCN": "11103",
+    "adress": "\u0443\u043b. \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u0430\u044f, 54 \u0410\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 244,
+  "fields": {
+    "ECP": "1948",
+    "UCN": "11139",
+    "adress": "\u0443\u043b. \u0413\u0435\u0440\u043e\u0435\u0432 \u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u044f, 11\u0412\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 245,
+  "fields": {
+    "ECP": "2003",
+    "UCN": "11140",
+    "adress": "\u0443\u043b. \u041c\u0430\u0440\u0448\u0430\u043b\u0430 \u0416\u0443\u043a\u043e\u0432\u0430,10\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 246,
+  "fields": {
+    "ECP": "2010",
+    "UCN": "11141",
+    "adress": "\u0443\u043b .\u041a\u0430\u0440\u0442\u0432\u0435\u043b\u0438\u0448\u0432\u0438\u043b\u0438, 7\\2   (\u0412\u043e\u043b\u043e\u0434\u0438\u043c\u0438\u0440\u0430 \u041f\u043e\u043a\u043e\u0442\u0438\u043b\u0430 )\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 247,
+  "fields": {
+    "ECP": "2051",
+    "UCN": "11142",
+    "adress": "\u0443\u043b. \u0413\u0435\u0440\u043e\u0435\u0432 \u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u044f, 42\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 248,
+  "fields": {
+    "ECP": "2048",
+    "UCN": "-",
+    "adress": "\u043f\u0440-\u0442 \u041e\u0431\u043e\u043b\u043e\u043d\u0441\u043a\u0438\u0439, 22\u0412 (\u041e\u0431\u043e\u043b\u043e\u043d\u0441\u043a\u0438\u0439 \u0426\u041e\u0410) (\u0434\u0435\u043c\u043e\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 249,
+  "fields": {
+    "ECP": "2087",
+    "UCN": "-",
+    "adress": "\u043f\u0440-\u0442 \u041f\u043e\u0431\u0435\u0434\u044b, 104 (\u0426\u041e\u0410) (\u0434\u0435\u043c\u043e\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 250,
+  "fields": {
+    "ECP": "2086",
+    "UCN": "11146",
+    "adress": "\u043f\u0440-\u0442   \u0428\u0443\u0445\u0435\u0432\u0438\u0447\u0430 (\u0413\u0435\u043d\u0435\u0440\u0430\u043b\u0430 \u0412\u0430\u0442\u0443\u0442\u0438\u043d\u0430), 18  \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 251,
+  "fields": {
+    "ECP": "2096",
+    "UCN": "11150",
+    "adress": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u043e\u0435 \u0448\u043e\u0441\u0441\u0435, 103 (outdoor \u0415\u0416\u0423)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 252,
+  "fields": {
+    "ECP": "2102",
+    "UCN": "11149",
+    "adress": "\u0443\u043b. \u041f\u043e\u0434\u0433\u043e\u0440\u043d\u0430\u044f, 7/36\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 253,
+  "fields": {
+    "ECP": "2109",
+    "UCN": "11148",
+    "adress": "\u0443\u043b. \u041f\u0430\u0432\u043b\u043e\u0432\u0441\u043a\u0430\u044f, 29\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 254,
+  "fields": {
+    "ECP": "2117",
+    "UCN": "11153",
+    "adress": "\u0443\u043b. \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u0430\u044f, 13\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 255,
+  "fields": {
+    "ECP": "2125",
+    "UCN": "11154",
+    "adress": "\u0443\u043b. \u0424\u0430\u043d\u0435\u0440\u043d\u0430\u044f, 4\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 256,
+  "fields": {
+    "ECP": "2151",
+    "UCN": "",
+    "adress": "\u0443\u043b. \u0422\u0435\u043e\u0434\u043e\u0440\u0430 \u0414\u0440\u0430\u0439\u0437\u0435\u0440\u0430, 46\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 257,
+  "fields": {
+    "ECP": "63",
+    "UCN": "10106",
+    "adress": "\u0411\u0440\u043e\u0432\u0430\u0440\u044b, \u0443\u043b. \u0413\u0440\u0443\u0448\u0435\u0432\u0441\u043a\u043e\u0433\u043e,9 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 258,
+  "fields": {
+    "ECP": "64",
+    "UCN": "10012",
+    "adress": "\u0411\u0435\u043b\u0430\u044f \u0426\u0435\u0440\u043a\u043e\u0432\u044c,\u0443\u043b. \u041f.\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u0446\u0430, 361 (\u0432\u0443\u043b.\u0406\u0432\u0430\u043d\u0430 \u041a\u043e\u0436\u0435\u0434\u0443\u0431\u0430)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 259,
+  "fields": {
+    "ECP": "66",
+    "UCN": "10013",
+    "adress": "\u0412\u0430\u0441\u0438\u043b\u044c\u043a\u043e\u0432,\u0443\u043b \u041f\u0430\u0440\u0438\u0436\u0441\u043a\u043e\u0439 \u041a\u043e\u043c\u043c\u0443\u043d\u044b, 82 \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 260,
+  "fields": {
+    "ECP": "69",
+    "UCN": "10001",
+    "adress": "\u0412\u0438\u043d\u0430\u0440\u043e\u0432\u043a\u0430 (\u0420\u0420\u0422)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 261,
+  "fields": {
+    "ECP": "81",
+    "UCN": "10002",
+    "adress": "\u041a\u0430\u043b\u0438\u043d\u043e\u0432\u043a\u0430, \u041c\u0430\u043a\u0430\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u0440-\u043d (\u0420\u0420\u0422)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 262,
+  "fields": {
+    "ECP": "82",
+    "UCN": "10011",
+    "adress": "\u0412\u0438\u0448\u043d\u0435\u0432\u043e\u0435, \u0443\u043b.\u041a\u0438\u0435\u0432\u0441\u043a\u0430\u044f, 11  \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 263,
+  "fields": {
+    "ECP": "83",
+    "UCN": "10008",
+    "adress": "\u0418\u0432\u0430\u043d\u043a\u043e\u0432, \u0411\u043e\u0440\u0438\u0441\u043f\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u0440-\u043d (\u0420\u0420\u0422)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 264,
+  "fields": {
+    "ECP": "85",
+    "UCN": "10014",
+    "adress": "\u041b\u0435\u0441\u043d\u0438\u043a\u0438, \u041e\u0431\u0443\u0445\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 265,
+  "fields": {
+    "ECP": "88",
+    "UCN": "10010",
+    "adress": "\u0411\u0443\u0447\u0430, \u0432\u0443\u043b.  \u041c\u0438\u0445\u0430\u0439\u043b\u0430 \u0413\u043e\u0440\u0438\u043d\u044f (\u0411\u0443\u0434\u044c\u043e\u043d\u043e\u0433\u043e), 2\u0430 \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 266,
+  "fields": {
+    "ECP": "130",
+    "UCN": "10075/10016",
+    "adress": "\u041b\u044e\u0442\u0435\u0436, \u0443\u043b. \u041f\u043e\u0431\u0435\u0434\u044b, 2, \u0412\u0438\u0448\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0438\u0439 \u0440-\u043d\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 267,
+  "fields": {
+    "ECP": "137",
+    "UCN": "10076/10005- \u0432 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0435?",
+    "adress": "\u0422\u0435\u0442\u0438\u0435\u0432, \u0443\u043b. \u041f\u043e\u043b\u0435\u0432\u0430\u044f,2, \u0432\u0438\u0448\u043a\u0430 \u041a\u0420\u0420\u0422\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 268,
+  "fields": {
+    "ECP": "138",
+    "UCN": "10006",
+    "adress": "\u0412\u043e\u043b\u043e\u0434\u0430\u0440\u043a\u0430, \u0443\u043b. \u041c\u0438\u0440\u0430, 221\u0410 (\u0420\u0420\u0422)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 269,
+  "fields": {
+    "ECP": "151",
+    "UCN": "10018",
+    "adress": "\u0411\u043e\u0440\u0438\u0441\u043f\u043e\u043b\u044c, \u0432\u0443\u043b. \u0417\u0430\u043f\u043e\u0440\u0456\u0437\u044c\u043a\u0430, 2\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 270,
+  "fields": {
+    "ECP": "162",
+    "UCN": "10003",
+    "adress": "\u0411\u0435\u0440\u0435\u0437\u0430\u043d\u044c, \u0432\u0443\u043b.  \u0428\u0435\u0432\u0447\u0435\u043d\u043a\u0456\u0432 \u0448\u043b\u044f\u0445 (\u041b\u0435\u043d\u0456\u043d\u0430), 37 (\u0420\u0420\u0422)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 271,
+  "fields": {
+    "ECP": "165",
+    "UCN": "10004",
+    "adress": "\u041a\u0430\u0433\u0430\u0440\u043b\u044b\u043a, \u0432\u0435\u0436\u0430 \u041a\u0420\u0420\u0422\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 272,
+  "fields": {
+    "ECP": "166",
+    "UCN": "10007",
+    "adress": "\u0420\u0430\u043a\u0438\u0442\u043d\u043e\u0435,\u0432\u0443\u043b. \u041f\u043e\u043f\u043e\u0432\u0438\u0447\u0430, 41 (\u0420\u0420\u0422)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 273,
+  "fields": {
+    "ECP": "187",
+    "UCN": "10017",
+    "adress": "\u0412\u044b\u0448\u0433\u043e\u0440\u043e\u0434, \u041a\u0438\u0435\u0432\u0441\u043a\u0430\u044f, 10\u0410\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 274,
+  "fields": {
+    "ECP": "189",
+    "UCN": "10077",
+    "adress": "\u0424\u0430\u0441\u0442\u043e\u0432 (\u0443\u043b. \u0421\u043e\u0431\u043e\u0440\u043d\u0430\u044f,2)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 275,
+  "fields": {
+    "ECP": "221",
+    "UCN": "10054",
+    "adress": "\u0417\u0430\u043b\u0435\u0441\u044c\u0435, \u0411\u0440\u043e\u0432\u0430\u0440\u0441\u043a\u043e\u0439 \u0440\u0430\u0439\u043e\u043d\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 276,
+  "fields": {
+    "ECP": "222",
+    "UCN": "10036",
+    "adress": "\u0422\u0430\u0440\u0430\u0449\u0430, \u0443\u043b. \u0421\u0442\u0435\u043f\u043e\u0432\u0430\u044f, 9\u0430    (outdoor \u0415\u0416\u0423, \u0442\u0440\u0435\u0443\u0433 \u043a\u043b\u044e\u0447)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 277,
+  "fields": {
+    "ECP": "223",
+    "UCN": "10021",
+    "adress": "\u0411\u043e\u0440\u043e\u0434\u044f\u043d\u043a\u0430, \u0443\u043b.\u0418\u043d\u0434\u0443\u0441\u0442\u0440\u0438\u0430\u043b\u044c\u043d\u0430\u044f, 2\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 278,
+  "fields": {
+    "ECP": "228",
+    "UCN": "10019",
+    "adress": "\u041c\u0438\u0440\u043e\u043d\u043e\u0432\u043a\u0430,\u0443\u043b.\u041b\u0435\u043d\u0438\u043d\u0430,130\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 279,
+  "fields": {
+    "ECP": "239",
+    "UCN": "10060",
+    "adress": "\u0411\u043e\u044f\u0440\u043a\u0430, \u0443\u043b.  \u0421\u043e\u0431\u043e\u0440\u043d\u043e\u0441\u0442\u0456 (40 \u043b\u0435\u0442 \u041e\u043a\u0442\u044f\u0431\u0440\u044f), 36\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 280,
+  "fields": {
+    "ECP": "274",
+    "UCN": "10026",
+    "adress": "\u0421\u043a\u0432\u0438\u0440\u0430, \u041a\u0438\u0435\u0432\u0441\u043a\u0430\u044f, 25\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 281,
+  "fields": {
+    "ECP": "289",
+    "UCN": "10024",
+    "adress": "\u041e\u0431\u0443\u0445\u043e\u0432, \u0432\u0443\u043b. \u0427\u0443\u043c\u0430\u0446\u044c\u043a\u0438\u0439 \u0448\u043b\u044f\u0445 (\u0416\u043e\u0432\u0442\u043d\u0435\u0432\u0430), 32\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 282,
+  "fields": {
+    "ECP": "300",
+    "UCN": "10028",
+    "adress": "\u041f\u0435\u0440\u0435\u044f\u0441\u043b\u0430\u0432-\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u043a\u0438\u0439,  \u0432\u0443\u043b. \u041f\u0435\u0442\u0440\u043e\u043f\u0430\u0432\u043b\u0456\u0432\u0441\u044c\u043a\u0430, 34\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 283,
+  "fields": {
+    "ECP": "344",
+    "UCN": "10058",
+    "adress": "\u0411\u043e\u0440\u043e\u0432\u0430\u044f, \u0424\u0430\u0441\u0442\u043e\u0432\u0441\u043a\u0438\u0439 \u0440-\u043d, \u0443\u043b. \u041d\u043e\u0432\u043e\u0432\u043e\u043a\u0437\u0430\u043b\u044c\u043d\u0430, \u0434.1\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 284,
+  "fields": {
+    "ECP": "353",
+    "UCN": "10078",
+    "adress": "\u042f\u0433\u043e\u0442\u0438\u043d, \u0443\u043b. \u0417\u0433\u0443\u0440\u043e\u0432\u0441\u043a\u0430\u044f, 1\u0430\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 285,
+  "fields": {
+    "ECP": "358",
+    "UCN": "10034",
+    "adress": "\u0411\u0435\u043b\u0430\u044f \u0426\u0435\u0440\u043a\u043e\u0432\u044c-2, \u0443\u043b. \u0413\u043e\u0440\u0434\u0438\u043d\u0441\u043a\u043e\u0433\u043e, 2 ( \u0413\u0435\u0440\u043e\u0457\u0432 \u041d\u0435\u0431\u0435\u0441\u043d\u043e\u0457 \u0421\u043e\u0442\u043d\u0456)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 286,
+  "fields": {
+    "ECP": "369",
+    "UCN": "10027",
+    "adress": "\u0417\u0433\u0443\u0440\u043e\u0432\u043a\u0430 (\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0430,16) - \u0432\u0443\u043b. \u0421\u0445\u0456\u0434\u043d\u0430, 2 (\u043f\u0435\u0440\u0435\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0430)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 287,
+  "fields": {
+    "ECP": "385",
+    "UCN": "10079",
+    "adress": "\u041e\u0431\u0443\u0445\u043e\u0432-2 (\u0443\u043b. \u041f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u0430\u044f,1) - \u0423\u043a\u0440\u0430\u0438\u043d\u043a\u0430\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 288,
+  "fields": {
+    "ECP": "394",
+    "UCN": "10032",
+    "adress": "\u0411\u043e\u0433\u0443\u0441\u043b\u0430\u0432, \u0443\u043b. \u041e\u043a\u0440\u0443\u0436\u043d\u0430\u044f 1\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 289,
+  "fields": {
+    "ECP": "396",
+    "UCN": "10031",
+    "adress": "\u041a\u0430\u043f\u0438\u0442\u0430\u043d\u043e\u0432\u043a\u0430\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 290,
+  "fields": {
+    "ECP": "449",
+    "UCN": "10041",
+    "adress": "\u0418\u0440\u043f\u0435\u043d\u044c, \u0443\u043b. \u0421\u0442\u0435\u043b\u044c\u043c\u0430\u0445\u0430,9\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 291,
+  "fields": {
+    "ECP": "484",
+    "UCN": "10030",
+    "adress": "94-\u0439 \u043a\u043c. (\u0441. \u0427\u0435\u0440\u043a\u0430\u0441, \u0422\u0430\u0440\u0430\u0449\u0430\u043d\u0441\u043a\u0438\u0439 \u043f\u0435\u0440\u0435\u043a\u0440-\u043a)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 292,
+  "fields": {
+    "ECP": "502",
+    "UCN": "10033",
+    "adress": "\u0421\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u043e\u0435, \u0443\u043b.\u0411\u043e\u0440\u0438\u0441\u043f\u043e\u043b\u044c\u0441\u043a\u0430\u044f,16 (outdoor \u0415\u0416\u0423)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 293,
+  "fields": {
+    "ECP": "506",
+    "UCN": "10040/10090",
+    "adress": "\u0412\u0438\u0442\u0430 \u041f\u043e\u0447\u0442\u043e\u0432\u0430, \u0432/\u0433\u043e\u0440\u043e\u0434\u043e\u043a 254 (outdoor \u0415\u0416\u0423)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 294,
+  "fields": {
+    "ECP": "520",
+    "UCN": "10039",
+    "adress": "\u0411\u0440\u043e\u0432\u0430\u0440\u044b-2 (\u0412\u043e\u043a\u0437\u0430\u043b\u044c\u043d\u0430\u044f,10) \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 295,
+  "fields": {
+    "ECP": "524",
+    "UCN": "10038",
+    "adress": "\u0418\u0432\u0430\u043d\u043a\u043e\u0432, \u0418\u0432\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440-\u043d, \u0443\u043b. \u0418.\u041f\u0440\u043e\u0441\u043a\u0443\u0440\u044b,1\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 296,
+  "fields": {
+    "ECP": "603",
+    "UCN": "10029",
+    "adress": "\u0413\u043b\u0435\u0432\u0430\u0445\u0430, \u0443\u043b. \u0412\u043e\u043a\u0437\u0430\u043b\u044c\u043d\u0430\u044f,34\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 297,
+  "fields": {
+    "ECP": "605",
+    "UCN": "10051",
+    "adress": "\u0411\u043e\u0440\u0438\u0441\u043f\u043e\u043b\u044c-2, \u0412\u0430\u0442\u0443\u0442\u0438\u043d\u0430, 71\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 298,
+  "fields": {
+    "ECP": "636",
+    "UCN": "10042",
+    "adress": "\u0412\u043e\u0440\u0437\u0435\u043b\u044c,\u0443\u043b. \u0417\u0430\u0445\u0438\u0441\u043d\u0438\u043a\u0456\u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0438 (\u0414\u0437\u0435\u0440\u0436\u0438\u043d\u0441\u043a\u043e\u0433\u043e), 55 (\u0442\u0440\u0435\u0443\u0433 \u043a\u043b\u044e\u0447) outDoor \u0415\u0416\u0423\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 299,
+  "fields": {
+    "ECP": "666",
+    "UCN": "10049",
+    "adress": "\u042f\u0441\u043d\u043e\u0433\u043e\u0440\u043e\u0434\u043a\u0430\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 300,
+  "fields": {
+    "ECP": "714",
+    "UCN": "10037",
+    "adress": "\u0411\u0435\u043b\u0430\u044f \u0426\u0435\u0440\u043a\u043e\u0432\u044c, \u0431\u0443\u043b\u044c\u0432.  \u0431\u0443\u043b. \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0456\u0439\u0441\u044c\u043a\u0438\u0439 (50 \u043b\u0435\u0442 \u041f\u043e\u0431\u0435\u0434\u044b), 94 (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 301,
+  "fields": {
+    "ECP": "721",
+    "UCN": "10044",
+    "adress": "\u041f\u0435\u0440\u0435\u044f\u0441\u043b\u0430\u0432-\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u043a\u0438\u0439-2, \u0443\u043b. \u0413\u0435\u0440\u043e\u0435\u0432 \u0414\u043d\u0435\u043f\u0440\u0430,46\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 302,
+  "fields": {
+    "ECP": "724",
+    "UCN": "10045",
+    "adress": "\u0412\u044b\u0448\u0433\u043e\u0440\u043e\u0434-2, \u0428\u043e\u043b\u0443\u0434\u0435\u043d\u043a\u043e,19 \u043a.5 (outdoor \u0415\u0416\u0423, \u0442\u0440\u0435\u0443\u0433 \u043a\u043b\u044e\u0447)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 303,
+  "fields": {
+    "ECP": "733",
+    "UCN": "10043",
+    "adress": "\u041a\u0430\u0433\u0430\u0440\u043b\u044b\u043a-2, \u0432\u0443\u043b. \u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 ( \u041a\u0430\u0440\u043b\u0430 \u041c\u0430\u0440\u043a\u0441\u0430),77\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 304,
+  "fields": {
+    "ECP": "876",
+    "UCN": "10050",
+    "adress": "\u0411\u0430\u0440\u044b\u0448\u0435\u0432\u043a\u0430 (\u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u043a\u0430\u044f,18\u0430) \n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 305,
+  "fields": {
+    "ECP": "927",
+    "UCN": "10047",
+    "adress": "\u042f\u0433\u043e\u0442\u0438\u043d-2, \u0443\u043b. \u041b\u0438\u0441\u0435\u043d\u043a\u043e (\u0421\u0430\u0445. \u0417-\u0434) (\u041a\u0443\u0437\u043d\u0435\u0446\u043e\u0432\u0430,18)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 306,
+  "fields": {
+    "ECP": "932",
+    "UCN": "10046",
+    "adress": "\u041d\u0435\u043c\u0435\u0448\u0430\u0435\u0432\u043e, \u0443\u043b. \u0411\u0438\u043e\u0445\u0438\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f, 1 (\u044d\u043b\u0435\u0432\u0430\u0442.)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 307,
+  "fields": {
+    "ECP": "999",
+    "UCN": "10089",
+    "adress": "\u0427\u0443\u043f\u044b\u0440\u0430-2, \u0443\u043b. \u041f\u0435\u0440\u0432\u043e\u043c\u0430\u0439\u0441\u043a\u0430\u044f, 2 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 308,
+  "fields": {
+    "ECP": "1021",
+    "UCN": "10056/10057",
+    "adress": "\u041d\u043e\u0432\u043e\u0441\u0435\u043b\u043a\u0438 (\u041e\u0437\u0435\u0440\u043d\u0430\u044f, 20)  (outdoor \u0415\u0416\u0423)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 309,
+  "fields": {
+    "ECP": "1067",
+    "UCN": "10055/10086",
+    "adress": "\u0414\u044b\u043c\u0435\u0440,\u0443\u043b. \u0420\u0435\u0432\u043e\u043b\u044e\u0446\u0438\u0438, 181\u0410 (outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 310,
+  "fields": {
+    "ECP": "1144",
+    "UCN": "10067",
+    "adress": "\"\u0411\u0440\u043e\u0432\u0430\u0440\u044b, \u0417\u0410\u041e \"\"\u0411\u0440\u043e\u0432\u0430\u0440\u0441\u043a\u043e\u0439 \u0437\u0430\u0432\u043e\u0434 \u043f\u043b\u0430\u0441\u0442\u043c\u0430\u0441\u0441\"\" (ITC)\"\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 311,
+  "fields": {
+    "ECP": "1149",
+    "UCN": "10068",
+    "adress": "\u0422\u0440\u0435\u0431\u0443\u0445\u0456\u0432, \u0411\u0440\u043e\u0432\u0430\u0440\u0441\u044c\u043a\u0438\u0439 \u0440-\u043d, \u0432\u0443\u043b. \u041a\u0456\u043b\u044c\u0446\u0435\u0432\u0430 \u0434\u043e\u0440\u043e\u0433\u0430,1 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 312,
+  "fields": {
+    "ECP": "1154",
+    "UCN": "10065",
+    "adress": "\u0427\u0443\u0431\u0438\u043d\u0441\u044c\u043a\u0435, \u0411\u043e\u0440\u0438\u0441\u043f. \u0440-\u043d, \u0432\u0443\u043b. \u041f\u043e\u0433\u0440\u0435\u0431\u043d\u044f\u043a\u0430, 1 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 313,
+  "fields": {
+    "ECP": "1158",
+    "UCN": "10072",
+    "adress": "\u041f\u0435\u0442\u0440\u043e\u043f\u0430\u0432\u043b\u0456\u0432\u0441\u044c\u043a\u0430 \u0411\u043e\u0440\u0449\u0430\u0433\u0456\u0432\u043a\u0430, \u0432\u0443\u043b. \u0410\u043d\u0442\u043e\u043d\u043e\u0432\u0430, 2,\u0427\u0430\u0439\u043a\u0430 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 314,
+  "fields": {
+    "ECP": "1166",
+    "UCN": "10070",
+    "adress": "\u041a\u043e\u0437\u0438\u043d (\u041e\u0431\u0443\u0445\u043e\u0432\u0441\u043a\u0438\u0439 \u0440-\u043d, \u0443\u043b. \u041b\u0435\u0441\u043d\u0430\u044f 2) ITC\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 315,
+  "fields": {
+    "ECP": "1169",
+    "UCN": "10063",
+    "adress": "\u0411\u043e\u0440\u0438\u0441\u043f\u0456\u043b\u044c-3 (\u0443\u043b. \u0428\u0435\u0432\u0447\u0435\u043d\u043a\u043e, 20 \u0410) ITC\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 316,
+  "fields": {
+    "ECP": "1170",
+    "UCN": "10074",
+    "adress": "\u0421\u043e\u0444\u0456\u0457\u0432\u0441\u044c\u043a\u0430 \u0411\u043e\u0440\u0449\u0430\u0433\u0456\u0432\u043a\u0430, \u0432\u0443\u043b. \u0421\u043e\u0431\u043e\u0440\u043d\u0430 (\u041b\u0435\u043d\u0456\u043d\u0430), 63 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 317,
+  "fields": {
+    "ECP": "1172",
+    "UCN": "10082",
+    "adress": "\u0427\u0435\u0440\u0432\u043e\u043d\u0430\u044f \u0421\u043b\u043e\u0431\u043e\u0434\u0430, \u0443\u043b. \u0417\u0430\u0432\u043e\u0434\u0441\u043a\u0430\u044f, 3 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 318,
+  "fields": {
+    "ECP": "1178",
+    "UCN": "10083",
+    "adress": "\u0411\u043e\u044f\u0440\u043a\u0430-2, \u0443\u043b. \u041a\u043e\u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f, 6 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 319,
+  "fields": {
+    "ECP": "1190",
+    "UCN": "10066",
+    "adress": "\u0413\u043e\u0433\u043e\u043b\u0435\u0432, \u0411\u0440\u043e\u0432. \u0440-\u043d, \u0443\u043b. \u0416\u043e\u0432\u0442\u043d\u0435\u0432\u0430, 57 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 320,
+  "fields": {
+    "ECP": "1197",
+    "UCN": "10062",
+    "adress": "\u0411\u0435\u043b\u0430\u044f \u0426\u0435\u0440\u043a\u043e\u0432\u044c, \u0443\u043b. \u041b\u0435\u0432\u0430\u043d\u0435\u0432\u0441\u043a\u043e\u0433\u043e, 83 (ITC) (\u0434\u0435\u043c\u043e\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 321,
+  "fields": {
+    "ECP": "1199",
+    "UCN": "10069",
+    "adress": "\u0421\u0435\u043c\u0438\u043f\u043e\u043b\u043a\u0438, \u0411\u0440\u043e\u0432\u0430\u0440. \u0440-\u043d, \u0443\u043b. \u041a\u0438\u0435\u0432\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435, 2 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 322,
+  "fields": {
+    "ECP": "1201",
+    "UCN": "10061",
+    "adress": "\u0423\u0437\u0438\u043d, \u0411\u0435\u043b\u043e\u0446\u0435\u0440\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440-\u043d, \u0443\u043b. \u041c\u0430\u044f\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e, 2 \u0441 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 323,
+  "fields": {
+    "ECP": "1205",
+    "UCN": "10071",
+    "adress": "\u0421\u0442\u0430\u0432\u0438\u0449\u0435, \u0421\u0442\u0430\u0432\u0438\u0449\u0435\u043d\u0441\u043a\u0438\u0439 \u0440-\u043d, \u0443\u043b. \u0420\u0430\u0434\u044f\u043d\u0441\u044c\u043a\u0430, 9 (ITC)   (\u0432\u0443\u043b.\u0426\u0438\u043c\u0431\u0430\u043b\u0430 \u0421\u0435\u0440\u0433\u0456\u044f)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 324,
+  "fields": {
+    "ECP": "1271",
+    "UCN": "10064",
+    "adress": "\u041c\u0438\u0440\u043d\u043e\u0435, \u0411\u043e\u0440\u0438\u0441\u043f \u0440-\u043d, \u0441\u0442\u0430\u0440\u0438\u043d\u0441\u044c\u043a\u0430 \u043f\u0442\u0438\u0446\u0435\u0444\u0430\u0431\u0440. (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 325,
+  "fields": {
+    "ECP": "1292",
+    "UCN": "10084",
+    "adress": "\u0424\u0430\u0441\u0442\u043e\u0432, \u0443\u043b.  \u0406\u0432\u0430\u043d\u0430 \u041c\u0430\u0437\u0435\u043f\u0438 (\u0406\u043d\u0442\u0435\u0440\u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f), 6  (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 326,
+  "fields": {
+    "ECP": "1296",
+    "UCN": "10087",
+    "adress": "\u041f\u043e\u0434\u0433\u043e\u0440\u0446\u044b,\u041e\u0431\u0443\u0445\u043e\u0432\u0441\u044c\u043a\u0438\u0439 \u0440-\u043d, \u0443\u043b. \u0411\u043e\u0440\u043e\u0432\u043a\u043e\u0432\u0430\u044f, 91  (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 327,
+  "fields": {
+    "ECP": "1329",
+    "UCN": "10093",
+    "adress": "\u0411\u043e\u0440\u0438\u0441\u043f\u043e\u043b\u044c-4 (\u0443\u043b. \u0417\u0430\u0432\u043e\u043a\u0437\u0430\u043b\u044c\u043d\u0430\u044f, 5) (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 328,
+  "fields": {
+    "ECP": "1364",
+    "UCN": "10094",
+    "adress": "\"\u0411\u0435\u0441\u043f\u044f\u0442\u043d\u043e\u0435, \u0412\u0430\u0441\u0438\u043b\u044c\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440-\u043d, (\u0432\u044b\u0448\u043a\u0430 \u0422\u041e\u0412 \"\"\u0423\u043a\u0440\u0422\u0430\u0443\u0435\u0440\"\" Life)\"\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 329,
+  "fields": {
+    "ECP": "1399",
+    "UCN": "10102",
+    "adress": "\u0418\u0440\u043f\u0435\u043d\u044c-2, \u0443\u043b. 3-\u0433\u043e \u0418\u043d\u0442\u0435\u0440\u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u0430, 105 \u0431 (ITC) (\u0434\u0435\u043c\u043e\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 330,
+  "fields": {
+    "ECP": "1403",
+    "UCN": "10096",
+    "adress": "\u0421\u0442\u0430\u0440\u044b\u0435 \u041f\u0435\u0442\u0440\u043e\u0432\u0446\u044b, \u0412\u0438\u0448\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0438\u0439 \u0440-\u043d, \u0443\u043b. \u041f\u043e\u043b\u0435\u0432\u0430\u044f, 5 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 331,
+  "fields": {
+    "ECP": "1409",
+    "UCN": "10097",
+    "adress": "\u0411\u043e\u0433\u0443\u0441\u043b\u0430\u0432, \u0443\u043b. \u041e\u0441\u0442\u0440\u0456\u0432, 1\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 332,
+  "fields": {
+    "ECP": "1410",
+    "UCN": "10101",
+    "adress": "\u0412\u0438\u0448\u043d\u0435\u0432\u043e\u0435-2, \u0443\u043b.\u0427\u0435\u0440\u043d\u043e\u0432\u043e\u043b\u0430, 54\u0430 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 333,
+  "fields": {
+    "ECP": "1423",
+    "UCN": "10095",
+    "adress": "\u041a\u0441\u0430\u0432\u0435\u0440\u043e\u0432\u043a\u0430 (\u0431\u0430\u0448\u043d\u044f \u0423\u043a\u0440\u0442\u0430\u0443\u044d\u0440) (Lucent OutDoor)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 334,
+  "fields": {
+    "ECP": "1461",
+    "UCN": "10109",
+    "adress": "\u041d\u043e\u0432\u043e\u0435 \u0417\u0430\u043b\u0435\u0441\u044c\u0435, \u0411\u043e\u0440\u043e\u0434 \u0440-\u043d (\u0431\u0430\u0448\u043d\u044f \u0423\u043a\u0440\u0442\u0430\u0443\u044d\u0440)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 335,
+  "fields": {
+    "ECP": "1506",
+    "UCN": "10113",
+    "adress": "\u0412\u0438\u0448\u043d\u0435\u0432\u043e\u0435-3, \u0443\u043b.\u0427\u0435\u0440\u043d\u043e\u0432\u043e\u043b\u0430, 1 (ITC)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 336,
+  "fields": {
+    "ECP": "1551",
+    "UCN": "10110",
+    "adress": "\u041c\u0430\u043b\u0430\u044f \u0421\u0442\u0430\u0440\u0438\u0446\u0430, \u0432\u044b\u0448\u043a\u0430 \u0423\u043a\u0440\u0442\u0430\u0443\u044d\u0440\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 337,
+  "fields": {
+    "ECP": "1557",
+    "UCN": "10048",
+    "adress": "\u0427\u0443\u043f\u044b\u0440\u0430 (\u0423\u043a\u0440\u0442\u0430\u0443\u0435\u0440)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 338,
+  "fields": {
+    "ECP": "1579",
+    "UCN": "10081",
+    "adress": "\u041c\u0430\u043a\u0430\u0440\u043e\u0432, \u0443\u043b. \u0412\u0430\u0442\u0443\u0442\u0438\u043d\u0430, 60\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 339,
+  "fields": {
+    "ECP": "1602",
+    "UCN": "10100",
+    "adress": "\u0411\u0443\u0437\u043e\u0432\u0430\u044f (\u0421\u0430\u0434\u043e\u0432\u0441\u043a\u043e\u0433\u043e, 1\u0431)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 340,
+  "fields": {
+    "ECP": "1687",
+    "UCN": "10103",
+    "adress": "\u041e\u0431\u0443\u0445\u043e\u0432, \u041e\u0431\u0443\u0445\u043e\u0432\u0441\u043a\u0438\u0439 \u0440-\u043d, \u0443\u043b. \u041a\u0430\u0448\u0442\u0430\u043d\u043e\u0432\u0430\u044f, 52\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 341,
+  "fields": {
+    "ECP": "1700",
+    "UCN": "10112",
+    "adress": "\u041c\u0438\u0440\u043e\u043d\u043e\u0432\u043a\u0430, \u0443\u043b. \u0421\u0442\u0430\u0440\u0447\u0435\u043d\u043a\u043e,1\u0410\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 342,
+  "fields": {
+    "ECP": "1726",
+    "UCN": "10099",
+    "adress": "\u0413\u043b\u0435\u0432\u0430\u0445\u0430,\u0443\u043b. \u0411\u043e\u0442\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f, 15\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 343,
+  "fields": {
+    "ECP": "1743",
+    "UCN": "10105",
+    "adress": "\u043c. \u0422\u0430\u0440\u0430\u0449\u0430, \u0432\u0443\u043b. \u0420\u0435\u0432\u043e\u043b\u044e\u0446\u0456\u0457, 2\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 344,
+  "fields": {
+    "ECP": "1764",
+    "UCN": "\u0431/\u043d",
+    "adress": "\u041a\u0440\u044e\u043a\u043e\u0432\u0449\u0438\u043d\u0430 (\u043e\u0441\u0432\u0435\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u0456\u0439 \u0441\u0442\u043e\u043b\u0431) (\u0434\u0435\u043c\u043e\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 345,
+  "fields": {
+    "ECP": "1787",
+    "UCN": "10114",
+    "adress": "\u0411\u043e\u0440\u0438\u0441\u043f\u0456\u043b\u044c\u0441\u044c\u043a\u0438\u0439 \u0440-\u043d, \u0441. \u0421\u0442\u0430\u0440\u0435, \u0432\u0443\u043b. \u0417\u0430\u0432\u043e\u0434\u0441\u044c\u043a\u0430, 1 (\u0432\u044b\u043a\u043b\u044e\u0447\u0435\u043d\u0430)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 346,
+  "fields": {
+    "ECP": "1792",
+    "UCN": "10116",
+    "adress": "\u041f\u0435\u0440\u0435\u044f\u0441\u043b\u0430\u0432-\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u044c\u043a\u0438\u0439, \u0432\u0443\u043b. \u0411.\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u044c\u043a\u043e\u0433\u043e, 32\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 347,
+  "fields": {
+    "ECP": "1771",
+    "UCN": "10104",
+    "adress": "\u0417\u0433\u0443\u0440\u043e\u0432\u043a\u0430, \u0412\u0430\u0442\u0443\u0442\u0438\u043d\u0430,6\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 348,
+  "fields": {
+    "ECP": "1812",
+    "UCN": "10085",
+    "adress": "\u0411\u0435\u043b\u0430\u044f \u0426\u0435\u0440\u043a\u043e\u0432\u044c, \u0443\u043b. \u0420\u043e\u0441\u0435\u0432\u0430\u044f,14 (\u0434\u0435\u043c\u043e\u043d\u0442\u0438\u0440\u043e\u0432\u043e\u043d\u043e)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 349,
+  "fields": {
+    "ECP": "1814",
+    "UCN": "10115",
+    "adress": "\u041a\u0430\u043b\u0438\u043d\u0456\u0432\u043a\u0430, \u0432\u0443\u043b. \u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0430,164, \u0412\u0430\u0441\u0438\u043b\u044c\u043a\u0456\u0432\u0441\u044c\u043a\u0438\u0439 \u0440-\u043d\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 350,
+  "fields": {
+    "ECP": "1950",
+    "UCN": "10119",
+    "adress": "\u0411\u043e\u0440\u0438\u0441\u043f\u043e\u043b\u044c, \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 351,
+  "fields": {
+    "ECP": "1981",
+    "UCN": "10118",
+    "adress": "\u0411\u0435\u043b\u043e\u0433\u043e\u0440\u043e\u0434\u043a\u0430, \u0443\u043b. \u0421\u0430\u0434\u043e\u0432\u0430\u044f, 1 (Outdoor Lucent)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 352,
+  "fields": {
+    "ECP": "1994",
+    "UCN": "10121",
+    "adress": "\u0413\u043e\u0441\u0442\u043e\u043c\u0435\u043b\u044c, \u0443\u043b. \u0421\u0432\u044f\u0442\u043e-\u041f\u043e\u043a\u0440\u043e\u0432\u0441\u044c\u043a\u0430 (\u041b\u0435\u043d\u0438\u043d\u0430), 141-\u041f (Lucent Outd)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 353,
+  "fields": {
+    "ECP": "2001",
+    "UCN": "10122",
+    "adress": "\u0428\u0435\u0432\u0447\u0435\u043d\u043a\u043e\u0432\u043e, \u0411\u0440\u043e\u0432\u0430\u0440. \u0440-\u043d, \u0443\u043b. \u0412\u043e\u043a\u0437\u0430\u043b\u044c\u043d\u0430\u044f, 1\u0430 (Lucent Outd)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 354,
+  "fields": {
+    "ECP": "2014",
+    "UCN": "10120",
+    "adress": "\u041a\u0430\u043b\u0438\u0442\u0430, \u0432\u0443\u043b.\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u0430 (\u041b\u0435\u043d\u0456\u043d\u0430), 40, \u0411\u0440\u043e\u0432\u0430\u0440\u0441\u044c\u043a\u0438\u0439 \u0440-\u043d (Lucent Outd)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 355,
+  "fields": {
+    "ECP": "2026",
+    "UCN": "10123",
+    "adress": "\u0413\u0440\u0435\u0431\u0435\u043d\u043a\u0438, \u0432\u0443\u043b. \u0411\u0435\u043b\u043e\u0446\u0435\u0440\u043a\u043e\u0432\u0441\u043a\u0430\u044f, 1 (\u0421\u0430\u043b\u0438\u0432\u043e\u043d\u043a\u0438)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 356,
+  "fields": {
+    "ECP": "2049",
+    "UCN": "10126",
+    "adress": "\u0418\u0432\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440-\u043d, \u0441\u043c\u0442 \u0418\u0432\u0430\u043d\u043a\u043e\u0432, \u0443\u043b. \u041f\u043e\u043b\u0435\u0441\u0441\u043a\u0430\u044f, 171 (Lucent Outd)\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 357,
+  "fields": {
+    "ECP": "2064",
+    "UCN": "10117",
+    "adress": "\u0425\u043e\u0442\u043e\u0432, \u041a\u0438\u0454\u0432\u043e-\u0421\u0432\u044f\u0442\u043e\u0448\u0438\u043d\u0441\u044c\u043a\u0438\u0439 \u0440-\u043d, \u043f\u0435\u0440. \u0412\u0435\u0442\u0435\u0440\u0438\u043d\u0430\u0440\u043d\u044b\u0439, 3\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 358,
+  "fields": {
+    "ECP": "2132",
+    "UCN": "10128",
+    "adress": "\u041f\u0435\u0441\u043a\u043e\u0432\u043a\u0430, \u0443\u043b. \u0416\u043e\u0432\u0442\u043d\u0435\u0432\u0430, 1\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 359,
+  "fields": {
+    "ECP": "2153",
+    "UCN": "10124",
+    "adress": "\u0411\u043e\u0440\u0438\u0441\u043f\u0456\u043b\u044c\u0441\u044c\u043a\u0438\u0439 \u0440-\u043d, \u0413\u043d\u0456\u0434\u0438\u043d\u0441\u044c\u043a\u0430 \u0441\u0456\u043b\u044c\u0441\u044c\u043a\u0430 \u0440\u0430\u0434\u0430, \u0443\u0440\u043e\u0447\u0438\u0449\u0435 \u041c\u043b\u0438\u043d\u043e\u0432\u043e, \u0432\u0443\u043b. \u041a\u043d\u044f\u0436\u043d\u0430, 6\n",
+    "dn": "",
+    "contra": null
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 360,
+  "fields": {
+    "ECP": "0",
+    "UCN": "0",
+    "adress": "\u043e\u0444\u0438\u0441",
+    "dn": "0",
+    "contra": 2
+  }
+},
+{
+  "model": "everyday.bts",
+  "pk": 361,
+  "fields": {
+    "ECP": "0",
+    "UCN": "0",
+    "adress": "\u0441\u043a\u043b\u0430\u0434",
+    "dn": "0",
+    "contra": 2
+  }
+},
+{
+  "model": "everyday.personel",
+  "pk": 3,
+  "fields": {
+    "Name": "\u041a\u0438\u0440\u0438\u043d",
+    "Position": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0438\u043a \u0433\u0440\u0443\u043f\u043f\u044b"
+  }
+},
+{
+  "model": "everyday.personel",
+  "pk": 4,
+  "fields": {
+    "Name": "\u0421\u0435\u043c\u0435\u0448\u043a\u043e",
+    "Position": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0438\u043a \u0433\u0440\u0443\u043f\u043f\u044b"
+  }
+},
+{
+  "model": "everyday.personel",
+  "pk": 5,
+  "fields": {
+    "Name": "\u0421\u044b\u0440\u0430\u0439",
+    "Position": "\u0418\u043d\u0436\u0435\u043d\u0435\u0440"
+  }
+},
+{
+  "model": "everyday.personel",
+  "pk": 6,
+  "fields": {
+    "Name": "\u041f\u043e\u043b\u0438\u0448\u043a\u043e",
+    "Position": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0438\u043a \u043e\u0442\u0434\u0435\u043b\u0430 \u0415\u0421"
+  }
+},
+{
+  "model": "everyday.personel",
+  "pk": 7,
+  "fields": {
+    "Name": "\u0416\u0430\u0440\u043e\u0432",
+    "Position": "\u0418\u043d\u0436\u0435\u043d\u0435\u0440 \u043e\u0442\u0434\u0435\u043b\u0430 \u0415\u0421"
+  }
+},
+{
+  "model": "everyday.personel",
+  "pk": 8,
+  "fields": {
+    "Name": "\u041f\u0430\u0449\u0435\u043d\u043a\u043e",
+    "Position": "\u0418\u043d\u0436\u0435\u043d\u0435\u0440 \u043e\u0442\u0434\u0435\u043b\u0430 \u0415\u0421"
+  }
+},
+{
+  "model": "everyday.personel",
+  "pk": 9,
+  "fields": {
+    "Name": "\u041c\u0430\u0437\u0443\u0440",
+    "Position": "\u0418\u043d\u0436\u0435\u043d\u0435\u0440 \u043e\u0442\u0434\u0435\u043b\u0430 \u0422\u0415"
+  }
+},
+{
+  "model": "everyday.personel",
+  "pk": 10,
+  "fields": {
+    "Name": "\u041f\u0438\u043d\u0447\u0443\u043a",
+    "Position": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0438\u043a \u043e\u0442\u0434\u0435\u043b\u0430 \u0410\u0440\u0435\u043d\u0434\u044b"
+  }
+},
+{
+  "model": "everyday.car",
+  "pk": 1,
+  "fields": {
+    "dn": "\u0412\u041d7792\u0415\u041a",
+    "model": "Largus",
+    "driver": "\u0413\u0440\u0438\u0432\u0430"
+  }
+},
+{
+  "model": "everyday.car",
+  "pk": 2,
+  "fields": {
+    "dn": "\u0412\u041d1756\u0410\u041e",
+    "model": "Shkoda",
+    "driver": "\u0421\u043d\u0438\u0433\u0438\u0440\u044c"
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 1,
+  "fields": {
+    "created_date": "2018-11-12T22:00:00Z",
+    "nn": 0,
+    "dept": "DTE",
+    "work": "\u0410\u0412\u0420 \u0411\u0421",
+    "adress": 349,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "3-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 2,
+  "fields": {
+    "created_date": "2018-11-12T22:00:00Z",
+    "nn": 1,
+    "dept": "DTE",
+    "work": "\u0410\u0412\u0420 \u0411\u0421",
+    "adress": 173,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "3-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 3,
+  "fields": {
+    "created_date": "2018-11-12T22:00:00Z",
+    "nn": 2,
+    "dept": "DTE",
+    "work": "\u0410\u0412\u0420 \u0411\u0421",
+    "adress": 296,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "2-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 4,
+  "fields": {
+    "created_date": "2018-11-12T22:00:00Z",
+    "nn": 3,
+    "dept": "DTE",
+    "work": "\u041f\u0422\u041a",
+    "adress": 256,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      9
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 5,
+  "fields": {
+    "created_date": "2018-11-12T22:00:00Z",
+    "nn": 4,
+    "dept": "ES",
+    "work": "\u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 \u043e\u0442\u0447\u0435\u0442\u043e\u0432",
+    "adress": 360,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "7-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 6,
+  "fields": {
+    "created_date": "2018-11-12T22:00:00Z",
+    "nn": 5,
+    "dept": "ES",
+    "work": "\u0417\u0430\u043c\u0435\u043d\u0430 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0430",
+    "adress": 174,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "4-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      6
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 7,
+  "fields": {
+    "created_date": "2018-11-12T22:00:00Z",
+    "nn": 6,
+    "dept": "ES",
+    "work": "\u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u0438\u0442\u0430\u043d\u0438\u044f",
+    "adress": 359,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "4-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      6
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 8,
+  "fields": {
+    "created_date": "2018-11-12T22:00:00Z",
+    "nn": 7,
+    "dept": "OASS",
+    "work": "\u041f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432",
+    "adress": 190,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 9,
+  "fields": {
+    "created_date": "2018-11-13T22:00:00Z",
+    "nn": 8,
+    "dept": "DPRS",
+    "work": "\u041c\u043e\u0434\u0435\u0440\u043d\u0438\u0437\u0430\u0446\u0438\u044f \u0441\u0442\u043e\u0439\u043a\u0438 \u0441\u0438\u0441\u0442\u0435\u043c \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438",
+    "adress": 274,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "7-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      5
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 10,
+  "fields": {
+    "created_date": "2018-11-13T22:00:00Z",
+    "nn": 9,
+    "dept": "DTE",
+    "work": "\u0417\u0430\u043f\u0443\u0441\u043a \u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+    "adress": 162,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      3
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 11,
+  "fields": {
+    "created_date": "2018-11-13T22:00:00Z",
+    "nn": 10,
+    "dept": "ES",
+    "work": "\u0417\u0430\u043a\u0440\u044b\u0442\u0438\u0435 \u0430\u043a\u0442\u043e\u0432",
+    "adress": 256,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 12,
+  "fields": {
+    "created_date": "2018-11-13T22:00:00Z",
+    "nn": 11,
+    "dept": "ES",
+    "work": "\u0417\u0430\u043c\u0435\u043d\u0430 \u0415\u0416\u0423",
+    "adress": 274,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "7-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      6
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 13,
+  "fields": {
+    "created_date": "2018-11-13T22:00:00Z",
+    "nn": 12,
+    "dept": "OASS",
+    "work": "\u041f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u044b",
+    "adress": 274,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 14,
+  "fields": {
+    "created_date": "2018-11-14T22:00:00Z",
+    "nn": 13,
+    "dept": "DTE",
+    "work": "\u0410\u0412\u0420 \u0415\u0416\u0423",
+    "adress": 222,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "2-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 15,
+  "fields": {
+    "created_date": "2018-11-14T22:00:00Z",
+    "nn": 14,
+    "dept": "DTE",
+    "work": "\u0410\u0412\u0420 \u0411\u0421",
+    "adress": 150,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "2-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 16,
+  "fields": {
+    "created_date": "2018-11-14T22:00:00Z",
+    "nn": 15,
+    "dept": "DTE",
+    "work": "\u0410\u0412\u0420 \u0410\u0424\u0423",
+    "adress": 141,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "3-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 17,
+  "fields": {
+    "created_date": "2018-11-14T22:00:00Z",
+    "nn": 16,
+    "dept": "DTE",
+    "work": "\u0410\u0412\u0420 \u0411\u0421",
+    "adress": 162,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      3
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 18,
+  "fields": {
+    "created_date": "2018-11-14T22:00:00Z",
+    "nn": 17,
+    "dept": "OASS",
+    "work": "\u041f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u044b",
+    "adress": 204,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "4-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 19,
+  "fields": {
+    "created_date": "2018-11-14T22:00:00Z",
+    "nn": 18,
+    "dept": "OASS",
+    "work": "\u041e\u0446\u0435\u043d\u043a\u0430 \u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+    "adress": 241,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "4-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 20,
+  "fields": {
+    "created_date": "2018-11-14T22:00:00Z",
+    "nn": 19,
+    "dept": "ES",
+    "work": "\u0424\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u0430",
+    "adress": 360,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "7-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      6
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 21,
+  "fields": {
+    "created_date": "2018-11-14T22:00:00Z",
+    "nn": 20,
+    "dept": "ES",
+    "work": "\u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 \u043e\u0442\u0447\u0435\u0442\u043e\u0432",
+    "adress": 360,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "7-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 22,
+  "fields": {
+    "created_date": "2018-11-15T22:00:00Z",
+    "nn": 21,
+    "dept": "DTE",
+    "work": "\u0418\u043d\u0441\u043f\u0435\u043a\u0446\u0438\u044f \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f",
+    "adress": 361,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 23,
+  "fields": {
+    "created_date": "2018-11-15T22:00:00Z",
+    "nn": 22,
+    "dept": "DTE",
+    "work": "\u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0411\u0421",
+    "adress": 152,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      3
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 24,
+  "fields": {
+    "created_date": "2018-11-15T22:00:00Z",
+    "nn": 23,
+    "dept": "OASS",
+    "work": "\u041f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u044b",
+    "adress": 197,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "4-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 25,
+  "fields": {
+    "created_date": "2018-11-15T22:00:00Z",
+    "nn": 24,
+    "dept": "OASS",
+    "work": "\u0417\u0430\u043a\u0440\u044b\u0442\u0438\u0435 \u0434\u0435\u0431\u0438\u0442\u043e\u0440\u043a\u0438",
+    "adress": 155,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "4-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 26,
+  "fields": {
+    "created_date": "2018-11-15T22:00:00Z",
+    "nn": 25,
+    "dept": "ES",
+    "work": "\u0410\u0412\u0420 \u0415\u0416\u0423",
+    "adress": 257,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "7-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      6,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 27,
+  "fields": {
+    "created_date": "2018-11-18T22:00:00Z",
+    "nn": 26,
+    "dept": "OASS",
+    "work": "\u041f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432",
+    "adress": 204,
+    "rezult": "\u0432 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0435",
+    "elapsed_time": "8-00",
+    "car": 2,
+    "note": null,
+    "executor": [
+      3,
+      4,
+      5,
+      7,
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 28,
+  "fields": {
+    "created_date": "2018-11-18T22:00:00Z",
+    "nn": 27,
+    "dept": "DPRS",
+    "work": "\u041c\u043e\u043d\u0442\u0430\u0436 \u0420\u0420\u041b",
+    "adress": 160,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "7-00",
+    "car": 2,
+    "note": "",
+    "executor": [
+      3,
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 29,
+  "fields": {
+    "created_date": "2018-11-18T22:00:00Z",
+    "nn": 28,
+    "dept": "ES",
+    "work": "\u0421\u0434\u0430\u0447\u0430 \u043e\u0442\u0447\u0435\u0442\u043e\u0432",
+    "adress": 227,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "4-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 30,
+  "fields": {
+    "created_date": "2018-11-18T22:00:00Z",
+    "nn": 29,
+    "dept": "ES",
+    "work": "\u0421\u0434\u0430\u0447\u0430 \u043e\u0442\u0447\u0435\u0442\u043e\u0432",
+    "adress": 139,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "3-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 31,
+  "fields": {
+    "created_date": "2018-11-18T22:00:00Z",
+    "nn": 30,
+    "dept": "ES",
+    "work": "\u0420\u0435\u043c\u043e\u043d\u0442 \u043a\u043e\u043d\u0434\u0438\u0446\u0438\u043e\u043d\u0435\u0440\u0430",
+    "adress": 357,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 1,
+    "note": "",
+    "executor": [
+      6
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 32,
+  "fields": {
+    "created_date": "2018-11-19T22:00:00Z",
+    "nn": 31,
+    "dept": "ES",
+    "work": "\u041e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f",
+    "adress": 156,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "7-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      6
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 33,
+  "fields": {
+    "created_date": "2018-11-19T22:00:00Z",
+    "nn": 32,
+    "dept": "ES",
+    "work": "\u0421\u0434\u0430\u0447\u0430 \u043e\u0442\u0447\u0435\u0442\u043e\u0432",
+    "adress": 202,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 34,
+  "fields": {
+    "created_date": "2018-11-19T22:00:00Z",
+    "nn": 33,
+    "dept": "OASS",
+    "work": "\u041f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u044b",
+    "adress": 159,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "2-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 35,
+  "fields": {
+    "created_date": "2018-11-19T22:00:00Z",
+    "nn": 34,
+    "dept": "OASS",
+    "work": "\u041f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u044b",
+    "adress": 204,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "2-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 36,
+  "fields": {
+    "created_date": "2018-11-19T22:00:00Z",
+    "nn": 35,
+    "dept": "OASS",
+    "work": "\u0417\u0430\u043a\u0440\u044b\u0442\u0438\u0435 \u0434\u0435\u0431\u0438\u0442\u043e\u0440\u043a\u0438",
+    "adress": 197,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "2-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 37,
+  "fields": {
+    "created_date": "2018-11-19T22:00:00Z",
+    "nn": 36,
+    "dept": "OASS",
+    "work": "\u041f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u044b",
+    "adress": 281,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "2-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 38,
+  "fields": {
+    "created_date": "2018-11-19T22:00:00Z",
+    "nn": 37,
+    "dept": "OASS",
+    "work": "\u041f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u044b",
+    "adress": 205,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "2-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 39,
+  "fields": {
+    "created_date": "2018-11-19T22:00:00Z",
+    "nn": 38,
+    "dept": "DTE",
+    "work": "\u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0411\u0421",
+    "adress": 261,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 2,
+    "note": null,
+    "executor": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 40,
+  "fields": {
+    "created_date": "2018-11-19T22:00:00Z",
+    "nn": 39,
+    "dept": "DTE",
+    "work": "\u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 \u0441\u043e\u043f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u0438",
+    "adress": 360,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 2,
+    "note": null,
+    "executor": [
+      3
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 41,
+  "fields": {
+    "created_date": "2018-11-20T22:00:00Z",
+    "nn": 40,
+    "dept": "ES",
+    "work": "\u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 \u043e\u0442\u0447\u0435\u0442\u043e\u0432",
+    "adress": 360,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 42,
+  "fields": {
+    "created_date": "2018-11-20T22:00:00Z",
+    "nn": 41,
+    "dept": "ES",
+    "work": "\u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0410\u041c\u0421",
+    "adress": 156,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      6
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 43,
+  "fields": {
+    "created_date": "2018-11-20T22:00:00Z",
+    "nn": 42,
+    "dept": "OASS",
+    "work": "\u041f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+    "adress": 238,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "4-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 44,
+  "fields": {
+    "created_date": "2018-11-20T22:00:00Z",
+    "nn": 43,
+    "dept": "OASS",
+    "work": "\u041f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u044b",
+    "adress": 156,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "3-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 45,
+  "fields": {
+    "created_date": "2018-11-20T22:00:00Z",
+    "nn": 44,
+    "dept": "DTE",
+    "work": "\u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0410\u041c\u0421",
+    "adress": 156,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "7-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      3
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 46,
+  "fields": {
+    "created_date": "2018-11-20T22:00:00Z",
+    "nn": 45,
+    "dept": "DTE",
+    "work": "\u0410\u0412\u0420 \u0411\u0421",
+    "adress": 271,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "4-00",
+    "car": 2,
+    "note": null,
+    "executor": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 47,
+  "fields": {
+    "created_date": "2018-11-20T22:00:00Z",
+    "nn": 46,
+    "dept": "DTE",
+    "work": "\u0410\u0412\u0420 \u0411\u0421",
+    "adress": 261,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "4-00",
+    "car": 2,
+    "note": null,
+    "executor": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 48,
+  "fields": {
+    "created_date": "2018-11-21T22:00:00Z",
+    "nn": 47,
+    "dept": "ES",
+    "work": "\u0418\u043d\u0441\u043f\u0435\u043a\u0446\u0438\u044f \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f",
+    "adress": 361,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      6
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 49,
+  "fields": {
+    "created_date": "2018-11-21T22:00:00Z",
+    "nn": 48,
+    "dept": "ES",
+    "work": "\u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 \u043e\u0442\u0447\u0435\u0442\u043e\u0432",
+    "adress": 360,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "5-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 50,
+  "fields": {
+    "created_date": "2018-11-21T22:00:00Z",
+    "nn": 49,
+    "dept": "DTE",
+    "work": "\u0410\u0412\u0420 \u0411\u0421",
+    "adress": 337,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "3-00",
+    "car": 2,
+    "note": null,
+    "executor": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 51,
+  "fields": {
+    "created_date": "2018-11-21T22:00:00Z",
+    "nn": 50,
+    "dept": "DTE",
+    "work": "\u0420\u0435\u043a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044f \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f",
+    "adress": 268,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "3-00",
+    "car": 2,
+    "note": null,
+    "executor": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 52,
+  "fields": {
+    "created_date": "2018-11-21T22:00:00Z",
+    "nn": 51,
+    "dept": "DTE",
+    "work": "\u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0411\u0421",
+    "adress": 280,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "2-00",
+    "car": 2,
+    "note": null,
+    "executor": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 53,
+  "fields": {
+    "created_date": "2018-11-21T22:00:00Z",
+    "nn": 52,
+    "dept": "OASS",
+    "work": "\u041e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0445 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432 \u0434\u043b\u044f \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0438 \u0432 \u041e\u0434\u0435\u0441\u0441\u0443",
+    "adress": 360,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "6-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      10
+    ]
+  }
+},
+{
+  "model": "everyday.dte",
+  "pk": 54,
+  "fields": {
+    "created_date": "2018-11-22T22:00:00Z",
+    "nn": 53,
+    "dept": "ES",
+    "work": "\u0418\u043d\u0441\u043f\u0435\u043a\u0446\u0438\u044f \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f",
+    "adress": 361,
+    "rezult": "\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e",
+    "elapsed_time": "7-00",
+    "car": 1,
+    "note": null,
+    "executor": [
+      6
+    ]
+  }
+},
+{
+  "model": "everyday.report",
+  "pk": 1,
+  "fields": {
+    "created_date": "2017-03-02T12:38:54Z"
+  }
+},
+{
+  "model": "everyday.report",
+  "pk": 2,
+  "fields": {
+    "created_date": "2017-03-02T12:39:01Z"
+  }
+}
+
+]

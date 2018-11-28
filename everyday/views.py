@@ -17,8 +17,8 @@ from email import encoders
 
 
 # Create your views here.
-from .forms import personelForm, DTEForm, ContraForm, BTSForm,dteFilter
-from .models import DTE,Contra,BTS
+from .forms import personelForm, DTEForm, ContraForm, BTSForm,dteFilter,CarForm
+from .models import DTE,Contra,BTS,Car
     
 
 
@@ -143,7 +143,7 @@ def dte_edit(request, nn):
                         return redirect('dte_list')
         else:
                 form = DTEForm(instance=dte)
-        return render(request, 'everyday/dte_edit.html', {'form': form})
+        return render(request, 'everyday/new_dte.html', {'form': form})
 
 
 
@@ -151,7 +151,6 @@ def new_dte(request):
 
         if request.method == "POST":
                 form = DTEForm(request.POST)
-                print form
                 if form.is_valid():
                         dte = form.save(commit=False)
                         dte.nn = max([int(i.values()[0]) for i in list(DTE.objects.values('nn'))]) + 1
@@ -209,9 +208,47 @@ def contra_edit(request, nn):
         return render(request, 'everyday/contra.html', {'form': form})
 
 
+
+
+
 def contras(request):
     contras = Contra.objects.order_by('edrpou')
     return render(request, 'everyday/contras.html', {'contras': contras})
+
+
+def car_edit(request, nn):
+    car = get_object_or_404(Car, pk=nn)
+    if request.method == "POST":
+        form = CarForm(request.POST, instance=car)
+        if form.is_valid():
+            car = form.save(commit=False)
+            car.save()
+            form.save_m2m()
+            return redirect('cars')
+    else:
+        form = CarForm(instance=contra)
+    return render(request, 'everyday/entity.html', {'form': form,'entity':u'Автомобиля'})
+
+
+def car_new(request):
+    if request.method == "POST":
+        form = CarForm(request.POST)
+
+        if form.is_valid():
+            car = form.save(commit=False)
+            car.save()
+            form.save_m2m()
+            return redirect('cars')
+
+    else:
+        form = CarForm()
+    return render(request, 'everyday/entity.html', {'form': form,'entity':u'Автомобиля'})
+
+def cars(request):
+    cars = Car.objects.order_by('dn')
+    return render(request, 'everyday/cars.html', {'cars': cars})
+
+
 
 def bts_new(request):
             if request.method == "POST":

@@ -81,8 +81,12 @@ WSGI_APPLICATION = 'reports.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'reports',
+        'USER': 'reporter',
+        'PASSWORD': 'Cdma123!',
+        'HOST': '10.44.254.150',
+        'PORT': '',
     }
 }
 
