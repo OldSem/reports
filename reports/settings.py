@@ -29,6 +29,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '10.44.253.29',
     '127.0.0.1',
+    '10.44.254.150',
 ]
 
 
@@ -115,7 +116,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'Europe.Kiev'
+TIME_ZONE = 'Europe/Kiev'
 
 USE_I18N = True
 
@@ -130,7 +131,11 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "everyday/static"),
     'd:/GoogleDrive/Program/Python/Django/reports/everyday/static',
 )
+
+PROJECT_DIR=os.path.dirname(__file__)
+
+STATIC_ROOT= os.path.join(PROJECT_DIR,'static_media/')
 
