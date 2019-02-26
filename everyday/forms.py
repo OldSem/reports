@@ -46,8 +46,8 @@ class DTEForm(forms.ModelForm):
 
         model = DTE
 
-        fields = ('created_date','work','division','adress','executor','rezult','elapsed_time','note','car')
-        labels = {'created_date':u'Дата','work':u'Вид работ','division':u'Отделение','adress':u'Адресс объекта','executor':u'Исполнитель','rezult':u'Результат','elapsed_time':u'Затраченное время','note':u'Примечание','car':u'Автомобиль',}
+        fields = ('created_date','division','adress','executor','rezult','elapsed_time','note','car')
+        labels = {'created_date':u'Дата','division':u'Отделение','adress':u'Адресс объекта','executor':u'Исполнитель','rezult':u'Результат','elapsed_time':u'Затраченное время','note':u'Примечание','car':u'Автомобиль',}
         values = {"save":u'Добавить','rezult':u'выполнено'}
         widgets = {
             'executor': forms.CheckboxSelectMultiple(),
@@ -57,7 +57,7 @@ class DTEForm(forms.ModelForm):
         super(DTEForm,self).__init__(**kwargs)
         if user:
             self.fields['division'].queryset = Division.objects.filter(user=user)
-            self.fields['work'].queryset = Work.objects.filter(user=user)
+ #           self.fields['work'].queryset = Work.objects.filter(user=user)
             self.fields['executor'].queryset = personel.objects.filter(user=user)
 
 

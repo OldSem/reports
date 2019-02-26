@@ -155,7 +155,7 @@ def dte_edit(request, nn):
 def new_dte(request):
 
         if request.method == "POST":
-                form = DTEForm(request.POST)
+                form = DTEForm(data=request.POST)
                 if form.is_valid():
                         dte = form.save(commit=False)
                         dte.nn = max([int(i.values()[0]) for i in list(DTE.objects.values('nn'))]) + 1
