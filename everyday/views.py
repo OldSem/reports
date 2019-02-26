@@ -13,7 +13,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
-
+from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
@@ -119,6 +119,9 @@ def dte_list(request):
 
 
 
+
+
+
 def personel_new(request):
         if request.method == "POST":
                 form = personelForm(request.POST)
@@ -147,6 +150,8 @@ def dte_edit(request, nn):
 
 
 
+
+@login_required
 def new_dte(request):
 
         if request.method == "POST":
@@ -160,7 +165,7 @@ def new_dte(request):
                         return redirect('dte_list')
 
         else:
-                form = DTEForm()
+                form = DTEForm(user=request.user)
         return render(request, 'everyday/new_dte.html', {'form': form})
 
 def get_work(request):

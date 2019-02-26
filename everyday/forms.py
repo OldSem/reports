@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django import forms
 from django.utils import timezone
-from .models import personel,Contra,BTS,DTE,Car
+from .models import personel,Contra,BTS,DTE,Car,Dept,Division,Work
 
 
 
@@ -46,14 +46,21 @@ class DTEForm(forms.ModelForm):
 
         model = DTE
 
-        fields = ('created_date','dept','work','adress','executor','rezult','elapsed_time','note','car')
-        labels = {'created_date':u'Дата','dept':u'Отдел','work':u'Вид работ','adress':u'Адресс объекта','executor':u'Исполнитель','rezult':u'Результат','elapsed_time':u'Затраченное время','note':u'Примечание','car':u'Автомобиль',}
+        fields = ('created_date','work','division','adress','executor','rezult','elapsed_time','note','car')
+        labels = {'created_date':u'Дата','work':u'Вид работ','division':u'Отделение','adress':u'Адресс объекта','executor':u'Исполнитель','rezult':u'Результат','elapsed_time':u'Затраченное время','note':u'Примечание','car':u'Автомобиль',}
         values = {"save":u'Добавить','rezult':u'выполнено'}
         widgets = {
             'executor': forms.CheckboxSelectMultiple(),
-            'dept':forms.Select(choices=DEPT_CHOICES),
             'created_date':forms.SelectDateWidget()
         }
+    def __init__(self,user=None,**kwargs):
+        super(DTEForm,self).__init__(**kwargs)
+        if user:
+            self.fields['division'].queryset = Division.objects.filter(user=user)
+            self.fields['work'].queryset = Work.objects.filter(user=user)
+            self.fields['executor'].queryset = personel.objects.filter(user=user)
+
 
 class dteFilter(forms.Form):
     datefilter = forms.DateField(widget=forms.SelectDateWidget(),initial=timezone.now())
+

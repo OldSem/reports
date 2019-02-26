@@ -6,6 +6,43 @@ from django.utils.encoding import python_2_unicode_compatible
 
 from django.db import models
 
+from django.contrib.auth.models import User
+
+
+@python_2_unicode_compatible
+class Dept(models.Model):
+    name = models.CharField(max_length=200)
+    user = models.ManyToManyField(User)
+    def __str__(self):
+        return self.name
+
+
+@python_2_unicode_compatible
+class Wtype(models.Model):
+    name = models.CharField(max_length=200)
+    dept = models.ForeignKey(Dept,null=True)
+    def __str__(self):
+        return self.name
+
+
+
+@python_2_unicode_compatible
+class Work(models.Model):
+    name = models.CharField(max_length=200)
+    wtype = models.ForeignKey(Wtype,null=True)
+    user = models.ManyToManyField(User)
+    def __str__(self):
+        return self.name
+
+@python_2_unicode_compatible
+class Division(models.Model):
+    name = models.CharField(max_length=200)
+    user = models.ManyToManyField(User)
+    def __str__(self):
+        return self.name
+
+
+
 @python_2_unicode_compatible
 class Contra(models.Model):
     edrpou = models.IntegerField()
@@ -32,6 +69,7 @@ class personel(models.Model):
 
     Name = models.CharField(max_length=50)
     Position = models.CharField(max_length=50,default='SOME STRING')
+    user = models.ManyToManyField(User,null=True)
 
     def __str__(self):
         return self.Name
@@ -55,8 +93,8 @@ class DTE(models.Model):
     created_date = models.DateTimeField(
         default=yesterday)
     nn = models.IntegerField()
-    dept = models.CharField(max_length=20,default='')
-    work = models.CharField(max_length=200)
+    division = models.ForeignKey(Division,null=True)
+    work = models.ForeignKey(Work,null=True)
     adress = models.ForeignKey(BTS,null=True)
     rezult = models.CharField(max_length=10,default=u'выполнено')
     executor = models.ManyToManyField(personel)
@@ -65,6 +103,10 @@ class DTE(models.Model):
     note = models.CharField(max_length=200,blank=True,null=True)
     def __str__(self):
         return str(self.nn)
+
+
+
+
 
 
 class report(models.Model):
