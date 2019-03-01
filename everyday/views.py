@@ -17,9 +17,12 @@ from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
-from .forms import personelForm, DTEForm, ContraForm, BTSForm,dteFilter,CarForm
-from .models import DTE,Contra,BTS,Car
+from .forms import personelForm, DTEForm, ContraForm, BTSForm,dteFilter,CarForm,WorkForm
+from .models import DTE,Contra,BTS,Car,Work
     
+
+
+
 
 
 
@@ -231,7 +234,7 @@ def car_edit(request, nn):
             form.save_m2m()
             return redirect('cars')
     else:
-        form = CarForm(instance=contra)
+        form = CarForm(instance=car)
     return render(request, 'everyday/entity.html', {'form': form,'entity':u'Автомобиля'})
 
 
@@ -249,9 +252,49 @@ def car_new(request):
         form = CarForm()
     return render(request, 'everyday/entity.html', {'form': form,'entity':u'Автомобиля'})
 
+
 def cars(request):
     cars = Car.objects.order_by('dn')
     return render(request, 'everyday/cars.html', {'cars': cars})
+
+def work_edit(request, nn):
+    work = get_object_or_404(Work, pk=nn)
+    if request.method == "POST":
+        form = WorkForm(data=request.POST, instance=work)
+        if form.is_valid():
+            work = form.save(commit=False)
+            work.save()
+            form.save_m2m()
+            return redirect('works')
+    else:
+        form = WorkForm(instance=work)
+    return render(request, 'everyday/entity.html', {'form': form,'entity':u'Работ'})
+
+
+def work_new(request):
+    if request.method == "POST":
+        form = WorkForm(data=request.POST)
+
+        if form.is_valid():
+            work = form.save(commit=False)
+            work.save()
+            form.save_m2m()
+            return redirect('works')
+
+    else:
+        form = WorkForm(user=request.user)
+    return render(request, 'everyday/entity.html', {'form': form,'entity':u'Работ'})
+
+def works(request):
+    works = Work.objects.all()
+    print dir(works[3].user)
+    return render(request, 'everyday/works.html', {'works': works})
+
+
+
+
+
+
 
 
 

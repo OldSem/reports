@@ -1,0 +1,114 @@
+<head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+{% block content %}
+  <style>
+    th {
+      cursor: pointer;
+    }
+
+    th:hover {
+      background: yellow;
+    }
+  </style>
+  <title>Список Автомобилей</title>
+
+</head>
+
+
+
+
+  <meta charset="utf-8">
+  <h1>Список Работ</h1>
+  <table border=2>	
+    <thead>
+     <tr>
+      <th data-type="string">Название</th>
+      <th data-type="string">Код</th>
+      <th data-type="string">Авторы</th>
+      <th>Редактировать</th>
+     </tr>
+    </thead> 
+    
+       {% for work in works %}
+         <tr>
+            <td>{{ work.name }}</td>
+            <td>{{ work.workcode }}</td>
+            <td>
+                {% for user in work.user.all %}
+                {{ user.username }},
+                  
+              {% endfor %}
+            </td>
+            <td><a class="btn btn-default" href="{% url 'work_edit' nn=work.pk %}"><span class="glyphicon glyphicon-pencil"></span></a></td>
+	       </tr>
+       {% endfor %}
+
+  </table>
+  <form>
+    <input type="button" value="Добавить" onClick='location.href="../work/new/"'>
+  </form>
+  <p><a href="{% url 'dtes' %}">Список Выполненных работ</a></p>
+  <p><a href="{% url 'btss' %}">Список Базовых Станций</a></p>
+  <p><a href="{% url 'contras' %}">Список Контрагентов</a></p>
+
+{% endblock %}
+  <script>
+    // сортировка таблицы
+    // использовать делегирование!
+    // должно быть масштабируемо:
+    // код работает без изменений при добавлении новых столбцов и строк
+
+    var grid = document.getElementsByTagName('table')[0];
+
+    grid.onclick = function(e) {
+      if (e.target.tagName != 'TH') return;
+
+      // Если TH -- сортируем
+      sortGrid(e.target.cellIndex, e.target.getAttribute('data-type'));
+      //alert (e.target.cellIndex,e.target.getAttribute('data-type'));
+    };
+
+    function sortGrid(colNum, type) {
+      var tbody = grid.getElementsByTagName('tbody')[0];
+
+      // Составить массив из TR
+      var rowsArray = [].slice.call(tbody.rows);
+
+      // определить функцию сравнения, в зависимости от типа
+      var compare;
+
+      switch (type) {
+        case 'number':
+          compare = function(rowA, rowB) {
+        
+            return rowA.cells[colNum].innerHTML - rowB.cells[colNum].innerHTML;
+
+          };
+          break;
+        case 'string':
+          compare = function(rowA, rowB) {
+
+           
+            
+            return rowA.cells[colNum].innerHTML > rowB.cells[colNum].innerHTML ? 1 : -1;
+          };
+          break;
+      }
+
+      // сортировать
+      rowsArray.sort(compare);
+
+      // Убрать tbody из большого DOM документа для лучшей производительности
+      grid.removeChild(tbody);
+
+      // добавить результат в нужном порядке в TBODY
+      // они автоматически будут убраны со старых мест и вставлены в правильном порядке
+      for (var i = 0; i < rowsArray.length; i++) {
+        tbody.appendChild(rowsArray[i]);
+      }
+
+      grid.appendChild(tbody);
+
+    }
+  </script>

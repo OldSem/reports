@@ -25,6 +25,10 @@ urlpatterns = [
     url(r'^car/new/$', views.car_new, name='car_new'),
     url(r'^car/(?P<nn>[0-9]+)/edit/$', views.car_edit, name='car_edit'),
 
+    url(r'^works/$', views.works, name='works'),
+    url(r'^work/new/$', views.work_new, name='work_new'),
+    url(r'^work/(?P<nn>[0-9]+)/edit/$', views.work_edit, name='work_edit'),
+
 
 
 ]

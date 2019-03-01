@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django import forms
 from django.utils import timezone
-from .models import personel,Contra,BTS,DTE,Car,Dept,Division,Work
+from .models import personel,Contra,BTS,DTE,Car,Dept,Division,Work,WorkCode
 
 
 
@@ -18,6 +18,22 @@ class CarForm(forms.ModelForm):
         fields = ('dn','model','driver')
         labels = {'edrpou':u'Государственный номер','name':u'Модель','address':u'Водитель'}
         values = {"save": u'Добавить'}
+
+class WorkForm(forms.ModelForm):
+    class Meta:
+        model = Work
+        fields = ('name','workcode','user')
+        labels = {'name':u'Вид работ','workcode':u'Код работ','user':u'Афтар'}
+        values = {"save": u'Добавить'}
+        widgets = {
+            'user': forms.CheckboxSelectMultiple(),
+
+        }
+    def __init__(self,user=None,**kwargs):
+        super(WorkForm,self).__init__(**kwargs)
+        if user:
+            self.fields['workcode'].queryset = WorkCode.objects.filter(user=user)
+
 
 
 
