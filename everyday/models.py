@@ -25,11 +25,20 @@ class Wtype(models.Model):
         return self.name
 
 
+@python_2_unicode_compatible
+class WorkCode(models.Model):
+    name = models.CharField(max_length=200)
+    workcode = models.ForeignKey(Wtype,null=True)
+    user = models.ManyToManyField(User)
+    def __str__(self):
+        return self.name
+
+
 
 @python_2_unicode_compatible
 class Work(models.Model):
     name = models.CharField(max_length=200)
-    wtype = models.ForeignKey(Wtype,null=True)
+    workcode = models.ForeignKey(WorkCode,null=True)
     user = models.ManyToManyField(User)
     def __str__(self):
         return self.name
