@@ -287,7 +287,6 @@ def work_new(request):
 
 def works(request):
     works = Work.objects.all()
-    print dir(works[3].user)
     return render(request, 'everyday/works.html', {'works': works})
 
 
