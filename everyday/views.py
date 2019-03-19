@@ -141,7 +141,7 @@ def personel_new(request):
 def dte_edit(request, nn):
         dte = get_object_or_404(DTE, nn=nn)
         if request.method == "POST":
-                form = DTEForm(request.POST, instance=dte)
+                form = DTEForm(data=request.POST, instance=dte)
                 if form.is_valid():
                         dte = form.save(commit=False)
                         dte.save()
