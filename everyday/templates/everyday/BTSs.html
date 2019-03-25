@@ -35,7 +35,7 @@
             <td>{{ bts.ECP }}</td>
             <td>{{ bts.UCN }}</td>
             <td>{{ bts.adress }}</td>
-            <td><a class="btn btn-default" href="{% url 'bts_edit' nn=bts.ECP %}"><span class="glyphicon glyphicon-pencil"></span></a></td>
+            <td><a class="btn btn-default" href="{% url 'bts_edit' nn=bts.pk %}"><span class="glyphicon glyphicon-pencil"></span></a></td>
 	       </tr>
        {% endfor %}
 

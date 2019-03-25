@@ -203,7 +203,7 @@ def contra_new(request):
 
 
 def contra_edit(request, nn):
-        contra = get_object_or_404(Contra, edrpou=nn)
+        contra = get_object_or_404(Contra, pk=nn)
         if request.method == "POST":
                 form = ContraForm(request.POST, instance=contra)
                 if form.is_valid():
@@ -313,7 +313,7 @@ def bts_new(request):
 
 
 def bts_edit(request, nn):
-        bts = get_object_or_404(BTS, ECP=nn)
+        bts = get_object_or_404(BTS, pk=nn)
         if request.method == "POST":
                 form = BTSForm(request.POST, instance=bts)
                 if form.is_valid():
